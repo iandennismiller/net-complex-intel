@@ -10,15 +10,96 @@ output:
         self_contained: false
 ---
 
-## Overview {.side-image}
+# A Story about Cybernetics
+
+## Cybernetics
+
+## The Macy Conferences
+
+## John von Neumann
+
+## Kurt Lewin
+
+# Introduction
+
+## Ian Dennis Miller
+
+- PhD Candidate, Social Psychology
+- Psychology Department
+- Studying: Social Complexity and Collective Intelligence
+    + agent-based modelling
+    + experimental psychology
+    + memes
+- Academic background
+    - BS Cognitive Science, Carnegie Mellon University
+    - Research Analyst, Berkeley
+    - MA Psychology, University of Toronto
+- http://imiller.utsc.utoronto.ca
+
+## Overview {.side-image .smaller}
 
 ![picture of chess pieces](assets/strategy.jpg)
 
-- 2016 US presidential candidates and the memes created about them
+- social psychology meets artificial intelligence
+- gh-impact: the influence of Individuals and Organizations in open source software
+- memelab: human meme experiment and campus-scale simulation
+- rofo: the Rob Ford network
+- topoli: individuals and the crowd
 - urban legend transmission
-- the influence of Individuals and Organizations in open source software
-- a computer simulation of the human population
-- the research literature of social psychology and artificial intelligence
+- 2016 US presidential candidates and the memes created about them
+- pplapi: a computer simulation of the human population
+
+# social psychology meets artificial intelligence
+
+## Academic collaboration network
+
+- Lewin and von Neumann meet at Macy 1 and 2:
+    - March 1946
+    - October 1946
+- consider that moment in time as a starting point
+- imagine spidering their social networks
+- social net with one particular constraint
+    + authors are linked via co-authorship
+
+## Leveraging BibTeX
+
+- database of citations
+- BibTeX is the interchange format
+    + read/write citations
+    + compatible with everything
+        - R
+        - Python
+        - LaTeX
+    + ugly, but good enough
+- 
+
+## Visualizing the network
+
+## Insights
+
+# interlude: pub2
+
+## What is publication?
+
+- publication in 2016, that is
+- prepub:
+    - arXiv
+    - SSRN
+    - fooXiv
+
+## Targeting Google Scholar
+
+- goal: get BibTeX indexed
+- digital object identifier
+    + DOI
+    + PURL (meh)
+- archival format
+    + PDF
+    + HTML
+
+## learn more about pub2
+
+# memelab (2012)
 
 # 2016 US presidential candidates and the memes created about them
 
