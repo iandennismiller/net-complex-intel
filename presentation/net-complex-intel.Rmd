@@ -14,14 +14,41 @@ output:
 
 ![picture of chess pieces](assets/strategy.jpg)
 
-- What is *data*?
-- What is a *database*?
-- Hands-on examples
-    - JSON and Map/Reduce
-    - sqlite3
-    - R with rsql
-- Conclusion
+- 2016 US presidential candidates and the memes created about them
+- urban legend transmission
+- the influence of Individuals and Organizations in open source software
+- a computer simulation of the human population
+- the research literature of social psychology and artificial intelligence
 
+# 2016 US presidential candidates and the memes created about them
+
+## Slide {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+# urban legend transmission
+
+## Slide {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+# the influence of Individuals and Organizations in open source software
+
+## Slide {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+# a computer simulation of the human population
+
+## Slide {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+# the research literature of social psychology and artificial intelligence
+
+## Slide {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
 
 # Conclusion
 
