@@ -108,10 +108,11 @@ output:
 ![Itinerary by Matthew Paris ca. 1250-1259](assets/stock/itinerary.jpg)
 
 - social psychology meets artificial intelligence
-- **memelab**: meme sharing
 - **pub2**: self publishing
+- **memelab**: meme sharing
 - **topoli**: twitter political memes
 - **rofo**: Rob Ford social network
+- **urban legends**: memes and network topologies
 - **gh-impact**: influence in open source software
 - **election-memes**: 2016 US election memes
 - **pplapi**: human simulacrum as a service
@@ -250,88 +251,6 @@ output:
 - more info
     + `pip install pub2`
     + http://pub2.readthedocs.io
-
-# gh-impact | the influence of Individuals and Organizations in open source software
-
-## Overview {.side-image .bigger}
-
-<!-- ![Tall Trees](assets/stock/trees.jpg) -->
-
-![Percent of accounts belonging to Organizations](assets/gh-impact/account_percent-1.png)
-
-- What is gh-impact?
-- Where does gh-impact come from?
-- Who does gh-impact apply to?
-- Why does gh-impact matter?
-- How can I use gh-impact?
-
-## What is **gh-impact**? {.side-image .bigger}
-
-<!-- ![Stone](assets/stock/stone-palm.jpg) -->
-
-![Top-10](assets/gh-impact/top-10-thumb.png)
-
-- gh-impact is a measure of influence on GitHub.
-- Accounts that publish lots of popular projects will have higher gh-impact scores.
-- captures breadth and depth of project use on GitHub
-- gh-impact score is n if there are n projects with n stars
-    - ex: 1, 1, 1 = 1
-    - ex: 1, 2, 3 = 2
-- "gh" stands for "good & hot"
-
-## Where does **gh-impact** come from? {.side-image .bigger}
-
-<!-- ![The open road](assets/stock/road.jpg) -->
-
-![99th Percentile Organizations](assets/gh-impact/area_99th_percentile_organizations-1.png)
-
-- related to academic citation analysis ("bibliometrics")
-- GitHub public data API
-- GHTorrent data dumps
-- own custom statistics pipeline
-
-## Who does **gh-impact** apply to? {.side-image .bigger}
-
-<!-- ![Crowd of people](assets/stock/crowd.jpg) -->
-
-![Individuals vs Organizations](assets/gh-impact/stars_penalty_plot-1.png)
-
-- all accounts on GitHub
-- individuals and organizations
-- must have at least one star to have a **gh-impact** score
-- not just software: websites, curation, science ...
-
-## Why does **gh-impact** matter? {.side-image .bigger}
-
-<!-- ![Science, generally](assets/stock/calculator.jpg) -->
-
-![Organizations can scale up](assets/gh-impact/max_stars_impact-1.png)
-
-- assess productive output of accounts
-- get credit for open source work (e.g. academics)
-- **gh-impact** is a key metric for developing other analyses
-- intelligence about open source software
-
-## How can I use **gh-impact**? {.side-image .bigger}
-
-<!-- ![People discussing things](assets/stock/work.jpg) -->
-
-![in Collective Intelligence proceedings](assets/gh-impact/article-thumb.png)
-
-- search: **gh-impact** scores for over 1.1 million accounts
-- analysis: results from ongoing statistical analysis are regularly posted
-- open data: download raw JSON from GitHub
-- http://www.gh-impact.com
-
-## Summary {.side-image .bigger}
-
-![The future, figuratively](assets/stock/future-road.jpg)
-
-- gh-impact is a measure of influence on GitHub
-- similar to how influence is measured in academia
-- describes both individual and organization GitHub accounts
-- gain intelligence about open source software
-- search, analysis, and data on http://www.gh-impact.com
 
 # Memelab | human behaviour, viral phenomena, and social simulation
 
@@ -627,7 +546,148 @@ example run of Repast simulation
 - we can’t conclude anything about the people involved
     - ...but sometimes there aren't too many hops!
 
+# Urban Legends | Network topology affects meme transmission
+
+## Urban legends {.side-image .bigger}
+
+![Flammarion](assets/stock/flat-earth.jpg)
+
+- urban legends are subject to emotional selection (Heath et al, 2001)
+- disgust, a high arousal negative emotion, was shown to predict sharing likelihood (Eriksson and Coultas, 2014)
+- replicate Eriksson and Coultas, 2014 with a simulation
+- explore scenarios beyond what was tested in the lab
+
+## Lab replication {.side-image}
+
+![Replicate lab topology](assets/urban-legends/study-1-lab-topology.png)
+
+- serial transmission paradigm
+    + participants are linked into chains
+- topology
+    - 160 agents
+    - 40 transmission chains
+    - 4 agents per chain
+    + 3 time steps
+- disgusting legends are shared so infrequently that in practice, the 4th participants rarely receives anything.
+- follow-up study: does it help to have 100x more agents?  no.
+
+## Network topology {.side-image}
+
+![Replicate lab topology](assets/urban-legends/study-3-n800.png)
+
+- connected agents via preferential attachment
+- after 3 time steps, expected "viral" outcomes were obtained
+    + agents in the 3rd step were finally receiving a good portion of memes
+- explored other network sizes $n=800$ and $n=16000$
+    + with more agents and more possible connections, even disgusting legends stay alive
+
+## Summary {.side-image}
+
+![Geometric roof](assets/stock/aluminum-roof.jpg)
+
+- lab studies can provide valuable models of behaviour
+    - even if the lab study is implausible
+    - even if it does not perform "correctly" out of context
+- models can be transplanted from the literature into agent-based simulations
+- a model can be "ported" from an unfavourable context to a more plausible environment
+
+# gh-impact | the influence of Individuals and Organizations in open source software
+
+## Overview {.side-image .bigger}
+
+<!-- ![Tall Trees](assets/stock/trees.jpg) -->
+
+![Percent of accounts belonging to Organizations](assets/gh-impact/account_percent-1.png)
+
+- What is gh-impact?
+- Where does gh-impact come from?
+- Who does gh-impact apply to?
+- Why does gh-impact matter?
+- How can I use gh-impact?
+
+## What is **gh-impact**? {.side-image .bigger}
+
+<!-- ![Stone](assets/stock/stone-palm.jpg) -->
+
+![Top-10](assets/gh-impact/top-10-thumb.png)
+
+- gh-impact is a measure of influence on GitHub.
+- Accounts that publish lots of popular projects will have higher gh-impact scores.
+- captures breadth and depth of project use on GitHub
+- gh-impact score is n if there are n projects with n stars
+    - ex: 1, 1, 1 = 1
+    - ex: 1, 2, 3 = 2
+- "gh" stands for "good & hot"
+
+## Where does **gh-impact** come from? {.side-image .bigger}
+
+<!-- ![The open road](assets/stock/road.jpg) -->
+
+![99th Percentile Organizations](assets/gh-impact/area_99th_percentile_organizations-1.png)
+
+- related to academic citation analysis ("bibliometrics")
+- GitHub public data API
+- GHTorrent data dumps
+- own custom statistics pipeline
+
+## Who does **gh-impact** apply to? {.side-image .bigger}
+
+<!-- ![Crowd of people](assets/stock/crowd.jpg) -->
+
+![Individuals vs Organizations](assets/gh-impact/stars_penalty_plot-1.png)
+
+- all accounts on GitHub
+- individuals and organizations
+- must have at least one star to have a **gh-impact** score
+- not just software: websites, curation, science ...
+
+## Why does **gh-impact** matter? {.side-image .bigger}
+
+<!-- ![Science, generally](assets/stock/calculator.jpg) -->
+
+![Organizations can scale up](assets/gh-impact/max_stars_impact-1.png)
+
+- assess productive output of accounts
+- get credit for open source work (e.g. academics)
+- **gh-impact** is a key metric for developing other analyses
+- intelligence about open source software
+
+## How can I use **gh-impact**? {.side-image .bigger}
+
+<!-- ![People discussing things](assets/stock/work.jpg) -->
+
+![in Collective Intelligence proceedings](assets/gh-impact/article-thumb.png)
+
+- search: **gh-impact** scores for over 1.1 million accounts
+- analysis: results from ongoing statistical analysis are regularly posted
+- open data: download raw JSON from GitHub
+- http://www.gh-impact.com
+
+## Summary {.side-image .bigger}
+
+![The future, figuratively](assets/stock/future-road.jpg)
+
+- gh-impact is a measure of influence on GitHub
+- similar to how influence is measured in academia
+- describes both individual and organization GitHub accounts
+- gain intelligence about open source software
+- search, analysis, and data on http://www.gh-impact.com
+
 # Election Memes | 2016 US presidential candidates and the memes about them
+
+## Overview {.side-image}
+
+![Vote](assets/stock/vote.png)
+
+- we are approaching US election day
+- 4 platforms:
+    - twitter
+    - instagram
+    - imgur
+    - facebook
+- about 38,000 memes
+- collected by a meme aggregator called Sizzle
+- interesting data: total number of likes
 
 ## Date Range {.image-slide}
 
@@ -648,8 +708,6 @@ example run of Repast simulation
 ## The photo finish? {.image-slide}
 
 ![Zoomed](assets/election-memes/zoomed.png)
-
-<!-- # Urban Legends | Network topology affects meme transmission -->
 
 # pplapi | A computer simulation of the human population
 
@@ -750,10 +808,11 @@ example run of Repast simulation
 ![Itinerary by Matthew Paris ca. 1250-1259](assets/stock/itinerary.jpg)
 
 - social psychology meets artificial intelligence
-- **memelab**: meme sharing
 - **pub2**: self publishing
+- **memelab**: meme sharing
 - **topoli**: twitter political memes
 - **rofo**: Rob Ford social network
+- **urban legends**: memes and network topologies
 - **gh-impact**: influence in open source software
 - **election-memes**: 2016 US election memes
 - **pplapi**: human simulacrum as a service

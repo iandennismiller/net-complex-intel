@@ -42,4 +42,4 @@ In this talk, I will discuss several recent studies, including:
 - Cybernetics: https://commons.wikimedia.org/wiki/File:SOCyberntics.png
 - Hands reach: https://www.flickr.com/photos/blmnevada/9607555893
 - Ouroboros: https://commons.wikimedia.org/wiki/File:Serpiente_alquimica.jpg
-- 
+- Flat earth: https://commons.wikimedia.org/wiki/File:Flammarion.jpg
