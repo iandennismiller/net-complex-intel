@@ -48,7 +48,7 @@ article.image-slide {
 article.image-slide img {
   display: block;
   margin: 0 auto;
-  min-height: 500px;
+  // min-height: 500px;
   max-height: 550px;
   max-width: 800px;
 }
@@ -89,6 +89,10 @@ article.side-image p.caption {
 
 article#information-a-property-of-our-universe img {
     width: 50%;
+}
+
+article#the-photo-finish img {
+  width: 600px;
 }
 
 #ascii-arrow {

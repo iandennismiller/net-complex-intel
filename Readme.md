@@ -37,5 +37,5 @@ In this talk, I will discuss several recent studies, including:
 - Chapel ceiling: https://commons.wikimedia.org/wiki/File:Vo%C3%BBte_de_l%27%C3%A9glise_Saint-S%C3%A9verin_%C3%A0_Paris.jpg
 - Aluminum Roof: https://pixabay.com/en/the-structure-lined-pattern-1034946/
 - Twitter pattern: https://pixabay.com/en/twitter-twitter-pattern-twitter-icon-1138523/
-- panning for gold: https://www.flickr.com/photos/nerdcoregirl/3880359066
-- 
+- Panning for gold: https://www.flickr.com/photos/nerdcoregirl/3880359066
+- Earth: https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg

@@ -58,11 +58,11 @@ output:
 ![Itinerary by Matthew Paris ca. 1250-1259](assets/stock/itinerary.jpg)
 
 - social psychology meets artificial intelligence
-- gh-impact: the influence of Individuals and Organizations in open source software
 - memelab: human meme experiment and campus-scale simulation
-- rofo: the Rob Ford network
-- topoli: individuals and the crowd
-- urban legend transmission
+- pub2: a meditation upon self publication
+- topoli: memes, individuals, and the crowd
+- rofo: the Rob Ford social network
+- gh-impact: the influence of Individuals and Organizations in open source software
 - 2016 US presidential candidates and the memes created about them
 - pplapi: a computer simulation of the human population
 
@@ -70,6 +70,8 @@ output:
 - simulating the contact effect
 - gthnk
 - flask-diamond
+- urban legend transmission
+
 -->
 
 # Social Psychology meets Artificial Intelligence | diving into the academic social network
@@ -596,13 +598,90 @@ example run of Repast simulation
 
 ![Zoomed](assets/election-memes/zoomed.png)
 
-# Urban Legends | Network topology affects meme transmission
+<!-- # Urban Legends | Network topology affects meme transmission -->
 
 # pplapi | A computer simulation of the human population
 
+## Ever-larger samples {.side-image .bigger}
+
+![Earth seen from Apollo 17](assets/stock/earth.jpg)
+
+- this can only go so far
+- eventually, you hit 7.2 billion
+- for Humans, there is no larger sample
+- for Social Psychologists, there is but one population
+    - $n \approx 7.2B$
+
+## Simulacrum as a Service {.side-image .bigger}
+
+![Selecting one agent at random](assets/pplapi/random-screenshot.png)
+
+- are we living inside a simulation?
+- Moravec, Bostrom, and others raise the possibility
+- I have set out to demonstrate that a simulacrum may be created
+    + ...so long as we can tolerate some error
+- the result is pplapi.com
+    + web service
+    + $n \approx 7.2B$
+
+## pplapi.com {.side-image .bigger}
+
+![Results are available as JSON](assets/pplapi/json-example.png)
+
+- enables agent based modelling in varying social and geopolitical contexts
+- Supports:
+    - netlogo
+    - MASON
+    - R
+    - LISP (so: ACT-R, others)
+- an analogy for netlogo users
+    - Agent : AgentSpace ::
+    - Behavior : BehaviorSpace
+
+## The actual API {.image-slide}
+
+![This table appears in the article.](assets/pplapi/api.png)
+
+## Global distribution of people {.image-slide}
+
+![MASON simulation.  Some countries are not "right" yet.](assets/pplapi/people-world.png)
+
+## Global Internet access {.image-slide}
+
+![Sampled of Internet access by country](assets/pplapi/internet-by-country.png)
+
+## Comparing pplapi to Census data {.image-slide}
+
+![Age in US: Census and Simulation](assets/pplapi/age_in_us.png)
+
+## Discussion {.side-image .bigger}
+
+![Age in US: Census and Simulation](assets/pplapi/age_in_us.png)
+
+- clearly not fully accurate
+    + in the ballpark
+- partly constrained by data
+- implications for identity, privacy
+    + data are simulated, not real
+    + however, imagine they were real
+    + ...and isn't that likely, given the rate of information disclosures?
+
+## Summary {.side-image .bigger}
+
+![Geometric roof](assets/stock/aluminum-roof.jpg)
+
+- Simulacrum as a Service
+    - certain caveats apply
+- plugs in with many existing modelling frameworks
+    + examples in several languages: netlogo, mason, R
+- you can actually experiment with pplapi.com
+    - rate limited, but otherwise open
+- actively using pplapi on several social projects
+- http://pplapi.com
+
 # Closing | A few last things
 
-## Lewin and von Neumann, reprise
+## Revisiting Lewin and von Neumann
 
 ## Conclusions
 

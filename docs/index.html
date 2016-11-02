@@ -156,11 +156,11 @@
 
 <ul>
 <li>social psychology meets artificial intelligence</li>
-<li>gh-impact: the influence of Individuals and Organizations in open source software</li>
 <li>memelab: human meme experiment and campus-scale simulation</li>
-<li>rofo: the Rob Ford network</li>
-<li>topoli: individuals and the crowd</li>
-<li>urban legend transmission</li>
+<li>pub2: a meditation upon self publication</li>
+<li>topoli: memes, individuals, and the crowd</li>
+<li>rofo: the Rob Ford social network</li>
+<li>gh-impact: the influence of Individuals and Organizations in open source software</li>
 <li>2016 US presidential candidates and the memes created about them</li>
 <li>pplapi: a computer simulation of the human population</li>
 </ul>
@@ -169,6 +169,8 @@
 - simulating the contact effect
 - gthnk
 - flask-diamond
+- urban legend transmission
+
 -->
 
 </article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Social Psychology meets Artificial Intelligence </h2><h3> diving into the academic social network</h3></hgroup><article  id="social-psychology-meets-artificial-intelligence-diving-into-the-academic-social-network">
@@ -879,13 +881,130 @@ example run of Repast simulation
 
 <img src='assets/election-memes/zoomed.png' title='fig:'/><p class='caption'>Zoomed</p>
 
-</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Urban Legends </h2><h3> Network topology affects meme transmission</h3></hgroup><article  id="urban-legends-network-topology-affects-meme-transmission">
+<!-- # Urban Legends | Network topology affects meme transmission -->
 
 </article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>pplapi </h2><h3> A computer simulation of the human population</h3></hgroup><article  id="pplapi-a-computer-simulation-of-the-human-population">
 
+</article></slide><slide class=''><hgroup><h2>Ever-larger samples</h2></hgroup><article  id="ever-larger-samples" class="side-image bigger">
+
+<img src='assets/stock/earth.jpg' title='fig:'/><p class='caption'>Earth seen from Apollo 17</p>
+
+<ul>
+<li>this can only go so far</li>
+<li>eventually, you hit 7.2 billion</li>
+<li>for Humans, there is no larger sample</li>
+<li>for Social Psychologists, there is but one population
+
+<ul>
+<li>\(n \approx 7.2B\)</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Simulacrum as a Service</h2></hgroup><article  id="simulacrum-as-a-service" class="side-image bigger">
+
+<img src='assets/pplapi/random-screenshot.png' title='fig:'/><p class='caption'>Selecting one agent at random</p>
+
+<ul>
+<li>are we living inside a simulation?</li>
+<li>Moravec, Bostrom, and others raise the possibility</li>
+<li>I have set out to demonstrate that a simulacrum may be created
+
+<ul>
+<li>&#8230;so long as we can tolerate some error</li>
+</ul></li>
+<li>the result is pplapi.com
+
+<ul>
+<li>web service</li>
+<li>\(n \approx 7.2B\)</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>pplapi.com</h2></hgroup><article  id="pplapi.com" class="side-image bigger">
+
+<img src='assets/pplapi/json-example.png' title='fig:'/><p class='caption'>Results are available as JSON</p>
+
+<ul>
+<li>enables agent based modelling in varying social and geopolitical contexts</li>
+<li>Supports:
+
+<ul>
+<li>netlogo</li>
+<li>MASON</li>
+<li>R</li>
+<li>LISP (so: ACT-R, others)</li>
+</ul></li>
+<li>an analogy for netlogo users
+
+<ul>
+<li>Agent : AgentSpace ::</li>
+<li>Behavior : BehaviorSpace</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>The actual API</h2></hgroup><article  id="the-actual-api" class="image-slide">
+
+<img src='assets/pplapi/api.png' title='fig:'/><p class='caption'>This table appears in the article.</p>
+
+</article></slide><slide class=''><hgroup><h2>Global distribution of people</h2></hgroup><article  id="global-distribution-of-people" class="image-slide">
+
+<img src='assets/pplapi/people-world.png' title='fig:'/><p class='caption'>MASON simulation. Some countries are not &quot;right&quot; yet.</p>
+
+</article></slide><slide class=''><hgroup><h2>Global Internet access</h2></hgroup><article  id="global-internet-access" class="image-slide">
+
+<img src='assets/pplapi/internet-by-country.png' title='fig:'/><p class='caption'>Sampled of Internet access by country</p>
+
+</article></slide><slide class=''><hgroup><h2>Comparing pplapi to Census data</h2></hgroup><article  id="comparing-pplapi-to-census-data" class="image-slide">
+
+<img src='assets/pplapi/age_in_us.png' title='fig:'/><p class='caption'>Age in US: Census and Simulation</p>
+
+</article></slide><slide class=''><hgroup><h2>Discussion</h2></hgroup><article  id="discussion" class="side-image bigger">
+
+<img src='assets/pplapi/age_in_us.png' title='fig:'/><p class='caption'>Age in US: Census and Simulation</p>
+
+<ul>
+<li>clearly not fully accurate
+
+<ul>
+<li>in the ballpark</li>
+</ul></li>
+<li>partly constrained by data</li>
+<li>implications for identity, privacy
+
+<ul>
+<li>data are simulated, not real</li>
+<li>however, imagine they were real</li>
+<li>&#8230;and isn&#39;t that likely, given the rate of information disclosures?</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Summary</h2></hgroup><article  id="summary-4" class="side-image bigger">
+
+<img src='assets/stock/aluminum-roof.jpg' title='fig:'/><p class='caption'>Geometric roof</p>
+
+<ul>
+<li>Simulacrum as a Service
+
+<ul>
+<li>certain caveats apply</li>
+</ul></li>
+<li>plugs in with many existing modelling frameworks
+
+<ul>
+<li>examples in several languages: netlogo, mason, R</li>
+</ul></li>
+<li>you can actually experiment with pplapi.com
+
+<ul>
+<li>rate limited, but otherwise open</li>
+</ul></li>
+<li>actively using pplapi on several social projects</li>
+<li><a href='http://pplapi.com' title=''>http://pplapi.com</a></li>
+</ul>
+
 </article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Closing </h2><h3> A few last things</h3></hgroup><article  id="closing-a-few-last-things">
 
-</article></slide><slide class=''><hgroup><h2>Lewin and von Neumann, reprise</h2></hgroup><article  id="lewin-and-von-neumann-reprise">
+</article></slide><slide class=''><hgroup><h2>Revisiting Lewin and von Neumann</h2></hgroup><article  id="revisiting-lewin-and-von-neumann">
 
 </article></slide><slide class=''><hgroup><h2>Conclusions</h2></hgroup><article  id="conclusions">
 
