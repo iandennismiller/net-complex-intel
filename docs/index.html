@@ -752,13 +752,36 @@ example run of Repast simulation
 
 </article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>rofo </h2><h3> The Rob Ford social network</h3></hgroup><article  id="rofo-the-rob-ford-social-network">
 
-</article></slide><slide class=''><hgroup><h2>b</h2></hgroup><article  id="b" class="side-image bigger">
+</article></slide><slide class=''><hgroup><h2>The mystery of the pixellated faces</h2></hgroup><article  id="the-mystery-of-the-pixellated-faces" class="side-image bigger">
 
 <img src='assets/rofo/ford-windsor-rd.png' title='fig:'/><p class='caption'>Ford at Windsor Rd</p>
 
-</article></slide><slide class=''><hgroup><h2>a</h2></hgroup><article  id="a" class="side-image bigger">
+<ul>
+<li>this picture surfaced in the wake of the Rob Ford crack video</li>
+<li>“who are these guys?”</li>
+<li>every kid in the picture has been the victim of a murder attempt (one successful)</li>
+<li>just the start of Rob Ford’s shady connections</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Free data</h2></hgroup><article  id="free-data" class="side-image bigger">
 
 <img src='assets/rofo/dossier.png' title='fig:'/><p class='caption'>Lisi ITO</p>
+
+<ul>
+<li>the police happened to be collecting data for us (names, places, times, etc)</li>
+<li>a golden opportunity to explore social network analysis</li>
+<li>dossier:
+
+<ul>
+<li>people</li>
+<li>locations</li>
+<li>associations</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Modelling the Situation</h2></hgroup><article  id="modelling-the-situation" class="image-slide">
+
+<img src='assets/rofo/entity-relationship-diagram.png' title='fig:'/><p class='caption'>Entity Relationship Diagram</p>
 
 </article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-3" class="video-slide">
 
@@ -768,6 +791,22 @@ example run of Repast simulation
 
 </video>
 
+</article></slide><slide class=''><hgroup><h2>Demo: rofo.ca</h2></hgroup><article  id="demo-rofo.ca" class="side-image bigger">
+
+<img src='assets/rofo/network-snapshot.png' title='fig:'/><p class='caption'>Network detail</p>
+
+<ul>
+<li>load the web UI</li>
+<li>zoom in on Rob Ford</li>
+<li>follow the graph
+
+<ul>
+<li>link by event</li>
+<li>link by group</li>
+<li>etc&#8230;</li>
+</ul></li>
+</ul>
+
 </article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-4" class="video-slide">
 
 <video controls autoplay>
@@ -776,9 +815,35 @@ example run of Repast simulation
 
 </video>
 
-</article></slide><slide class=''><hgroup><h2>c</h2></hgroup><article  id="c" class="side-image bigger">
+</article></slide><slide class=''><hgroup><h2>Web UI</h2></hgroup><article  id="web-ui" class="side-image bigger">
 
 <img src='assets/rofo/network-snapshot.png' title='fig:'/><p class='caption'>Network detail</p>
+
+<ul>
+<li>custom online viewer unpacks the social network from the coded data
+
+<ul>
+<li>d3.js</li>
+<li>Python Flask-Diamond backend</li>
+</ul></li>
+<li>Fruchterman-Reingold layout places connected people closer; repels distant people</li>
+<li>locations attract connected people as well</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Summary</h2></hgroup><article  id="summary-3" class="side-image bigger">
+
+<img src='assets/stock/aluminum-roof.jpg' title='fig:'/><p class='caption'>Geometric roof</p>
+
+<ul>
+<li>the original police reports are not as expressive as the network browser</li>
+<li>The rofo project permits the visual exploration of narratives</li>
+<li>correct social network layout algorithm facilitates the narrative</li>
+<li>we can’t conclude anything about the people involved
+
+<ul>
+<li>&#8230;but sometimes there aren&#39;t too many hops!</li>
+</ul></li>
+</ul>
 
 </article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Election Memes </h2><h3> 2016 US presidential candidates and the memes about them</h3></hgroup><article  id="election-memes-2016-us-presidential-candidates-and-the-memes-about-them">
 

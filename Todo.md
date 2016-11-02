@@ -2,8 +2,6 @@
 
 ## Milestone 1
 
-- [ ] topoli
-- [ ] rofo
 - [ ] gh-impact
 - [ ] Election Memes
 - [ ] Urban Legends
@@ -19,7 +17,6 @@
 
 ## Done
 
-- [x] memelab
 - [x] set up development environment
 - [x] Urban Legends assets
 - [x] pplapi assets
@@ -27,4 +24,6 @@
 - [x] Election Memes assets
 - [x] memelab assets
 - [x] rofo assets
+- [x] memelab
 - [x] topoli
+- [x] rofo

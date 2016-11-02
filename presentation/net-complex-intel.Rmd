@@ -495,13 +495,29 @@ example run of Repast simulation
 
 # rofo | The Rob Ford social network
 
-## b {.side-image .bigger}
+## The mystery of the pixellated faces {.side-image .bigger}
 
 ![Ford at Windsor Rd](assets/rofo/ford-windsor-rd.png)
 
-## a {.side-image .bigger}
+- this picture surfaced in the wake of the Rob Ford crack video
+- “who are these guys?”
+- every kid in the picture has been the victim of a murder attempt (one successful)
+- just the start of Rob Ford’s shady connections
+
+## Free data {.side-image .bigger}
 
 ![Lisi ITO](assets/rofo/dossier.png)
+
+- the police happened to be collecting data for us (names, places, times, etc)
+- a golden opportunity to explore social network analysis
+- dossier:
+    + people
+    + locations
+    + associations
+
+## Modelling the Situation {.image-slide}
+
+![Entity Relationship Diagram](assets/rofo/entity-relationship-diagram.png)
 
 ## {.video-slide}
 
@@ -509,15 +525,42 @@ example run of Repast simulation
 <source src="assets/rofo/situation.mp4" type="video/mp4">
 </video>
 
+## Demo: rofo.ca {.side-image .bigger}
+
+![Network detail](assets/rofo/network-snapshot.png)
+
+- load the web UI
+- zoom in on Rob Ford
+- follow the graph
+    + link by event
+    + link by group
+    + etc...
+
 ## {.video-slide}
 
 <video controls autoplay>
 <source src="assets/rofo/web-ui.mp4" type="video/mp4">
 </video>
 
-## c {.side-image .bigger}
+## Web UI {.side-image .bigger}
 
 ![Network detail](assets/rofo/network-snapshot.png)
+
+- custom online viewer unpacks the social network from the coded data
+    - d3.js
+    - Python Flask-Diamond backend
+- Fruchterman-Reingold layout places connected people closer; repels distant people
+- locations attract connected people as well
+
+## Summary {.side-image .bigger}
+
+![Geometric roof](assets/stock/aluminum-roof.jpg)
+
+- the original police reports are not as expressive as the network browser
+- The rofo project permits the visual exploration of narratives
+- correct social network layout algorithm facilitates the narrative
+- we can’t conclude anything about the people involved
+    - ...but sometimes there aren't too many hops!
 
 # Election Memes | 2016 US presidential candidates and the memes about them
 
