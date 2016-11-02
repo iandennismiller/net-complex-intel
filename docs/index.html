@@ -460,22 +460,66 @@
 
 </article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Memelab </h2><h3> human behaviour, viral phenomena, and social simulation</h3></hgroup><article  id="memelab-human-behaviour-viral-phenomena-and-social-simulation">
 
-</article></slide><slide class=''><hgroup><h2>Memes</h2></hgroup><article  id="memes">
+</article></slide><slide class=''><hgroup><h2>Memes</h2></hgroup><article  id="memes" class="side-image bigger">
+
+<img src='assets/memelab/i-can-haz-cheezburger.png' title='fig:'/><p class='caption'>The meme that started it all</p>
 
 <ul>
-<li>this is where I started in 2011</li>
+<li>this is where my research started in 2011</li>
 <li>Dawkins (1976): cultural replicator</li>
+<li><em>viral</em>: in epidemic modelling, when there is faster infection than recovery</li>
+<li>image macro: the style of meme consisting of a background picture and inset captions</li>
+<li>memes have been used in psychological research for decades
+
+<ul>
+<li>“a method in which greeting cards are used to examine how parents communicate with their children” (Cacioppo &amp; Andersen, 1981)</li>
+</ul></li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-1" class="side-image bigger">
+</article></slide><slide class=''><hgroup><h2>What is memelab?</h2></hgroup><article  id="what-is-memelab" class="side-image bigger">
 
 <img src='assets/memelab/meme8-screenshot.png' title='fig:'/><p class='caption'>Meme choice screen on meme8.com</p>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-2" class="side-image bigger">
+<ul>
+<li>online behavioural laboratory</li>
+<li>software on a web server</li>
+<li>clone of other meme creator websites (ecology)</li>
+<li>formerly, was only at <a href='http://meme8.com' title=''>http://meme8.com</a></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Method</h2></hgroup><article  id="method" class="side-image bigger">
 
 <img src='assets/memelab/meme8-share.png' title='fig:'/><p class='caption'>Sharing screen on meme8.com</p>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-3" class="video-slide">
+<ul>
+<li>participants use memelab to create sharable memes in the lab (after survey)</li>
+<li>memelab hosts the images with a unique URL</li>
+<li>any time an image is viewed by an online user, this is logged as a “hit.”</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Experiment</h2></hgroup><article  id="experiment" class="side-image">
+
+<img src='assets/stock/microscope.jpg' title='fig:'/><p class='caption'>Microscope</p>
+
+<ul>
+<li>participants
+
+<ul>
+<li>UTSC undergrads</li>
+<li>n=118 participants</li>
+<li>each participant created 2 memes (total = 236)</li>
+<li>50% had created memes before study</li>
+</ul></li>
+<li>Demo
+
+<ul>
+<li>pick a background picture</li>
+<li>put words at the top and bottom of the picture</li>
+<li>use sharing interface so friends can see meme</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-1" class="video-slide">
 
 <video controls autoplay>
 
@@ -493,27 +537,71 @@ Usage of meme8.com
 
 <img src='assets/memelab/example-meme.png' title='fig:'/><p class='caption'>The IC building is out at UTSC</p>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-4" class="side-image bigger">
+</article></slide><slide class=''><hgroup><h2>Cumulative Hits</h2></hgroup><article  id="cumulative-hits" class="image-slide">
 
-<img src='assets/memelab/cumulative-views.png' title='fig:'/><p class='caption'>Cumulative views over time</p>
+<img src='assets/memelab/cumulative-views.png' title='fig:'/><p class='caption'>Cumulative hits for all memes plotted daily, over time</p>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-5" class="side-image bigger">
+</article></slide><slide class=''><hgroup><h2>Hits per meme</h2></hgroup><article  id="hits-per-meme" class="image-slide">
 
-<img src='assets/memelab/total-hits.png' title='fig:'/><p class='caption'>Total hits received per meme</p>
+<img src='assets/memelab/total-hits.png' title='fig:'/><p class='caption'>Hits per meme. Outliers are interesting.</p>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-6" class="side-image bigger">
+<!-- ## Model of viral impact {.image-slide}
 
-<img src='assets/memelab/intention-to-share.png' title='fig:'/><p class='caption'>Model of intention to share</p>
+![Total hits received per meme](assets/memelab/model-viral-impact.png) -->
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-7" class="side-image bigger">
+</article></slide><slide class=''><hgroup><h2>Model: intention to share</h2></hgroup><article  id="model-intention-to-share" class="side-image">
+
+<!-- arrow -->
+
+<img src='assets/memelab/intention-to-share.png' title='fig:'/><p class='caption'>This is a linear model displayed graphically</p>
+
+<ul>
+<li>model incorporates features of the content
+
+<ul>
+<li>boolean values</li>
+<li>subject: the meme is academic or not (in this study: animal)</li>
+<li>language: the meme caption includes self-reference words or not</li>
+</ul></li>
+<li>model also incorporates ratings
+
+<ul>
+<li>meme is funny</li>
+<li>personally meaningful</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Convert to S-I-R model</h2></hgroup><article  id="convert-to-s-i-r-model" class="side-image bigger">
 
 <img src='assets/memelab/regression-function.png' title='fig:'/><p class='caption'>Regression function</p>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-8" class="side-image bigger">
+<ul>
+<li>SIR in Agent-Based Modelling
+
+<ul>
+<li>Susceptible</li>
+<li>Infected</li>
+<li>Recovered</li>
+</ul></li>
+<li>use slopes from linear model.</li>
+<li>use gaussian noise to create a distribution of random memes.</li>
+<li>threshold (0.5) makes the function into a &quot;trigger&quot; that can lead to infection.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>The simulation algorithm</h2></hgroup><article  id="the-simulation-algorithm" class="side-image">
 
 <img src='assets/memelab/simulation-detail.png' title='fig:'/><p class='caption'>Simulation zoomed detail</p>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-9" class="video-slide">
+<ul>
+<li>At each time “tick”</li>
+<li>the experiment wanders the space</li>
+<li>and recruits any agents who happen to be in the vicinity.</li>
+<li>Recruited agents create a meme (based on gaussian noise)</li>
+<li>and those agents share with a probability determined by the regression function.</li>
+<li>Infections signified by agent remarking, “Seen it.” An edge arrow tracks infection.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-2" class="video-slide">
 
 <video controls autoplay>
 
@@ -527,11 +615,22 @@ example run of Repast simulation
 
 </p>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-10" class="side-image bigger">
+</article></slide><slide class=''><hgroup><h2>Simulation results, compared</h2></hgroup><article  id="simulation-results-compared">
 
-<img src='assets/memelab/simulation-result.png' title='fig:'/><p class='caption'>Simulation result time series</p>
+<p><img src="assets/memelab/simulation-result.png" style="float: right; width: 450px;"></p>
 
-</article></slide><slide class=''><hgroup><h2>Summary</h2></hgroup><article  id="summary-1">
+<p><img src="assets/memelab/cumulative-views.png" style="float: left; width: 450px;"></p>
+
+</article></slide><slide class=''><hgroup><h2>Summary</h2></hgroup><article  id="summary-1" class="side-image bigger">
+
+<img src='assets/stock/aluminum-roof.jpg' title='fig:'/><p class='caption'>Geometric roof</p>
+
+<ul>
+<li>behavioural data from participants</li>
+<li>model of intention to share</li>
+<li>&quot;ported&quot; sharing model to an agent-based model</li>
+<li>run simulation and obtained similar results</li>
+</ul>
 
 </article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>topoli </h2><h3> individuals, group influence, and political memes</h3></hgroup><article  id="topoli-individuals-group-influence-and-political-memes">
 
@@ -616,7 +715,7 @@ example run of Repast simulation
 
 <img src='assets/rofo/dossier.png' title='fig:'/><p class='caption'>Lisi ITO</p>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-11" class="video-slide">
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-3" class="video-slide">
 
 <video controls autoplay>
 
@@ -624,7 +723,7 @@ example run of Repast simulation
 
 </video>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-12" class="video-slide">
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-4" class="video-slide">
 
 <video controls autoplay>
 

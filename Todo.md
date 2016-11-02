@@ -5,11 +5,11 @@
 - [ ] topoli
 - [ ] rofo
 - [ ] gh-impact
-- [ ] memelab
 - [ ] Election Memes
 - [ ] Urban Legends
 - [ ] pplapi
 - [ ] macy conferences story: intro and outro
+- [ ] add arrows
 
 ## Milestone 2
 
@@ -19,6 +19,7 @@
 
 ## Done
 
+- [x] memelab
 - [x] set up development environment
 - [x] Urban Legends assets
 - [x] pplapi assets

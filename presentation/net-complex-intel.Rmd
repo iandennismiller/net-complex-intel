@@ -270,18 +270,47 @@ output:
 
 # Memelab | human behaviour, viral phenomena, and social simulation
 
-## Memes
+## Memes {.side-image .bigger}
 
-- this is where I started in 2011
+![The meme that started it all](assets/memelab/i-can-haz-cheezburger.png)
+
+- this is where my research started in 2011
 - Dawkins (1976): cultural replicator
+- *viral*: in epidemic modelling, when there is faster infection than recovery
+- image macro: the style of meme consisting of a background picture and inset captions
+- memes have been used in psychological research for decades
+    + “a method in which greeting cards are used to examine how parents communicate with their children” (Cacioppo & Andersen, 1981)
 
-## {.side-image .bigger}
+## What is memelab? {.side-image .bigger}
 
 ![Meme choice screen on meme8.com](assets/memelab/meme8-screenshot.png)
 
-## {.side-image .bigger}
+- online behavioural laboratory
+- software on a web server
+- clone of other meme creator websites (ecology)
+- formerly, was only at http://meme8.com
+
+## Method {.side-image .bigger}
 
 ![Sharing screen on meme8.com](assets/memelab/meme8-share.png)
+
+- participants use memelab to create sharable memes in the lab (after survey)
+- memelab hosts the images with a unique URL
+- any time an image is viewed by an online user, this is logged as a “hit.”
+
+## Experiment {.side-image}
+
+![Microscope](assets/stock/microscope.jpg)
+
+- participants
+    - UTSC undergrads
+    - n=118 participants
+    - each participant created 2 memes (total = 236)
+    - 50% had created memes before study
+- Demo
+    - pick a background picture
+    - put words at the top and bottom of the picture
+    - use sharing interface so friends can see meme
 
 ## {.video-slide}
 
@@ -297,25 +326,54 @@ Usage of meme8.com
 
 ![The IC building is out at UTSC](assets/memelab/example-meme.png)
 
-## {.side-image .bigger}
+## Cumulative Hits {.image-slide}
 
-![Cumulative views over time](assets/memelab/cumulative-views.png)
+![Cumulative hits for all memes plotted daily, over time](assets/memelab/cumulative-views.png)
 
-## {.side-image .bigger}
+## Hits per meme {.image-slide}
 
-![Total hits received per meme](assets/memelab/total-hits.png)
+![Hits per meme.  Outliers are interesting.](assets/memelab/total-hits.png)
 
-## {.side-image .bigger}
+<!-- ## Model of viral impact {.image-slide}
 
-![Model of intention to share](assets/memelab/intention-to-share.png)
+![Total hits received per meme](assets/memelab/model-viral-impact.png) -->
 
-## {.side-image .bigger}
+## Model: intention to share {.side-image}
+
+<!-- arrow -->
+
+![This is a linear model displayed graphically](assets/memelab/intention-to-share.png)
+
+- model incorporates features of the content
+    - boolean values
+    - subject: the meme is academic or not (in this study: animal)
+    - language: the meme caption includes self-reference words or not
+- model also incorporates ratings
+    - meme is funny
+    - personally meaningful
+
+## Convert to S-I-R model {.side-image .bigger}
 
 ![Regression function](assets/memelab/regression-function.png)
 
-## {.side-image .bigger}
+- SIR in Agent-Based Modelling
+    - Susceptible
+    - Infected
+    - Recovered
+- use slopes from linear model.
+- use gaussian noise to create a distribution of random memes.
+- threshold (0.5) makes the function into a "trigger" that can lead to infection.
+
+## The simulation algorithm {.side-image}
 
 ![Simulation zoomed detail](assets/memelab/simulation-detail.png)
+
+- At each time “tick”
+- the experiment wanders the space
+- and recruits any agents who happen to be in the vicinity.
+- Recruited agents create a meme (based on gaussian noise)
+- and those agents share with a probability determined by the regression function.
+- Infections signified by agent remarking, “Seen it.” An edge arrow tracks infection.
 
 ## {.video-slide}
 
@@ -327,11 +385,20 @@ Usage of meme8.com
 example run of Repast simulation
 </p>
 
-## {.side-image .bigger}
+## Simulation results, compared
 
-![Simulation result time series](assets/memelab/simulation-result.png)
+<img src="assets/memelab/simulation-result.png" style="float: right; width: 450px;">
 
-## Summary
+<img src="assets/memelab/cumulative-views.png" style="float: left; width: 450px;">
+
+## Summary {.side-image .bigger}
+
+![Geometric roof](assets/stock/aluminum-roof.jpg)
+
+- behavioural data from participants
+- model of intention to share
+- "ported" sharing model to an agent-based model
+- run simulation and obtained similar results
 
 # topoli | individuals, group influence, and political memes
 
