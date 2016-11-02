@@ -2,6 +2,14 @@
 
 ## Milestone 1
 
-- [ ] set up development environment
+- [ ] add results from gh-impact, quick facts, whatever
+- [ ] memelab assets
+- [ ] Election Memes assets
+- [ ] Urban Legends assets
+- [ ] pplapi assets
+- [ ] rofo assets
+- [ ] topoli
 
 ## Done
+
+- [x] set up development environment

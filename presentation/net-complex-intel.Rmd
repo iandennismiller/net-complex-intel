@@ -18,7 +18,11 @@ output:
 
 ## John von Neumann
 
+- not just von Neumann. Norbert Wiener, Warren McCullouch, JCR Licklider, and many other notable scientists 
+
 ## Kurt Lewin
+
+## A Missed Connection
 
 # Introduction
 
@@ -54,7 +58,7 @@ output:
 
 <!-- - simulating the contact effect -->
 
-# social psychology meets artificial intelligence | diving into the academic social network
+# Social Psychology meets Artificial Intelligence | diving into the academic social network
 
 ## Academic collaboration network {.side-image}
 
@@ -114,7 +118,7 @@ output:
 - von Neumann is *very* distantly connected to Lewin's students
     + Lewin's death may have dashed any chances of a collaboration
 
-# pub2 | a brief interlude on the subject of online scholarship
+# Pub2 | a brief interlude on the subject of online scholarship
 
 ## What is publication? {.side-image .bigger}
 
@@ -126,7 +130,7 @@ output:
 - **pub2**: a system for self-publishing
     + all you need is a PDF and a .bib file that links to it
 
-## where do you publish? {.side-image}
+## Where do you publish? {.side-image}
 
 ![Hoe's one cylidner printing press](assets/printing-press.png)
 
@@ -143,7 +147,7 @@ output:
     - fooXiv
 - **self-publication??**
 
-## where do you find articles? {.side-image .bigger}
+## Where do you find articles? {.side-image .bigger}
 
 ![Bibliothek St. Florian](assets/library.jpg)
 
@@ -155,7 +159,7 @@ output:
 - Google scholar
     - warning: you will be rate-limited
 
-## self-publication {.side-image .bigger}
+## Self-publication {.side-image .bigger}
 
 ![Zines](assets/zines.jpg)
 
@@ -167,9 +171,9 @@ output:
     + PDF
 - **pub2** is a system for making this realistic
 
-## pub2 {.side-image}
+## Pub2 {.side-image}
 
-![pub2 source](assets/pub2-src.png)
+![pub2 example source](assets/pub2-src.png)
 
 - like Jekyll (static site generator) for PDFs
     - generates PDF and .bib file that links to PDF
@@ -196,6 +200,8 @@ output:
 
 ![Stone](assets/stone-palm.jpg)
 
+- gh-impact is a measure of influence on GitHub.
+- Accounts that publish lots of popular projects will have higher gh-impact scores.
 - captures breadth and depth of project use on GitHub
 - gh-impact score is n if there are n projects with n stars
     - ex: 1, 1, 1 = 1
@@ -248,48 +254,85 @@ output:
 - gain intelligence about open source software
 - search, analysis, and data on http://www.gh-impact.com
 
-# memelab | human behaviour, viral phenomena, and social simulation
+# Memelab | human behaviour, viral phenomena, and social simulation
 
-## memes
+## Memes
 
 - this is where I started in 2011
 - Dawkins (1976): cultural replicator
 
-# 2016 US presidential candidates and the memes created about them
+# topoli | individuals, group influence, and political memes
 
-## Slide {.side-image}
+## topoli {.side-image .bigger}
 
-![picture of chess pieces](assets/strategy.jpg)
+- a hash tag is used to channel tweets towards interested audiences
+- topoli = toronto politics
+- #topoli used to discuss municipal politics related to Toronto.
+- analogous hashtags #onpoli and #capoli
 
-# urban legend transmission
+## Twitter sample {.side-image .bigger}
 
-## Slide {.side-image}
+- observed 1,276,077 tweets between Nov 2013 - January 2015
+- 832,889 imported so far
+- 474,831 original (non-retweet) tweets
+- 82,874 agents have been observed tweeting
 
-![picture of chess pieces](assets/strategy.jpg)
+## Where are they? {.side-image .bigger}
 
-# the influence of Individuals and Organizations in open source software
+![topoli participants are in Toronto](assets/topoli/map.png)
 
-## Slide {.side-image}
+- of the 82,874 participating, 52,517 (63%) reported some location information
+- of the 52,517 who reported something:
+    - 15,752 (30%) included “toronto” in location
+    - 8,420 (16%) included “canada” in location
+- but the GPS speaks for itself
 
-![picture of chess pieces](assets/strategy.jpg)
+## topoli in 3-gram phrases
 
-# a computer simulation of the human population
+frequency   frequency minus “stopwords” pointwise mutual information (PMI)
+mayor rob ford  looking forward to  the gravy train
+at city hall    mayor of toronto    the island airport
+topoli rob ford toronto mayoral race    little red apples
+rob ford topoli city of toronto a speedy recovery
+topoli john tory    this is the the shirtless jogger
 
-## Slide {.side-image}
+## method for selecting n-grams
 
-![picture of chess pieces](assets/strategy.jpg)
+only original tweets
+remove retweets (which inflate n-gram frequency)
+PMI is like chi-square
+how often did we observe the n-gram versus expected number of observations
+results: the n-grams that are co-original (not duplicates)
 
-# the research literature of social psychology and artificial intelligence
+## and the memes are...
 
-## Slide {.side-image}
+- “the gravy train”
+    + a campaign slogan in 2010
+    + a reference to government spending
+- “the island airport”
+    + there’s actually an airport right downtown
+    + construction is hotly contested
+- “little red apples”
+    + “It doesn't have to be about race.  You can be a racist against people that eat little red apples.”
+    + (this was spoken by Rob Ford’s brother)
+- “a speedy recovery”
+    + following Rob Ford’s cancer announcement
+    + many people expressed a similar sentiment
+- the shirtless jogger
 
-![picture of chess pieces](assets/strategy.jpg)
+# rofo
+
+# Election Memes | 2016 US presidential candidates and the memes created about them
+
+# Urban Legends | network topology affects meme transmission
+
+# pplapi | a computer simulation of the human population
 
 # Closing | A few last things
 
+## Lewin and von Neumann, reprise
+
 ## Conclusions
-
-
 
 ## Thank you
 
