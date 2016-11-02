@@ -25,3 +25,4 @@ In this talk, I will discuss several recent studies, including:
 - Printing press: [https://commons.wikimedia.org/wiki/File:Hoe%27s_one_cylinder_printing_press.png](https://commons.wikimedia.org/wiki/File:Hoe%27s_one_cylinder_printing_press.png)
 - Library: [https://commons.wikimedia.org/wiki/File:Bibliothek_St._Florian.jpg](https://commons.wikimedia.org/wiki/File:Bibliothek_St._Florian.jpg)
 - Zines: [https://commons.wikimedia.org/wiki/File:UK_and_US_zines.jpg](https://commons.wikimedia.org/wiki/File:UK_and_US_zines.jpg)
+- Itinerary: [https://commons.wikimedia.org/wiki/File:Itinerary_by_Matthew_Paris_-_Historia_Anglorum_(1250-1259),_f.2_-_BL_Royal_MS_14_C_VII.jpg](https://commons.wikimedia.org/wiki/File:Itinerary_by_Matthew_Paris_-_Historia_Anglorum_(1250-1259),_f.2_-_BL_Royal_MS_14_C_VII.jpg)

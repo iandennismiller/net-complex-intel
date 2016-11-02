@@ -22,13 +22,16 @@ output:
 
 # Introduction
 
-## Ian Dennis Miller
+## Ian Dennis Miller {.side-image}
+
+![vCard](assets/qr.png)
 
 - PhD Candidate, Social Psychology
 - Psychology Department
 - Studying: Social Complexity and Collective Intelligence
     + agent-based modelling
     + experimental psychology
+    + social network analysis
     + memes
 - Academic background
     - BS Cognitive Science, Carnegie Mellon University
@@ -38,7 +41,7 @@ output:
 
 ## Overview {.side-image .smaller}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Itinerary by Matthew Paris ca. 1250-1259](assets/itinerary.jpg)
 
 - social psychology meets artificial intelligence
 - gh-impact: the influence of Individuals and Organizations in open source software
@@ -49,23 +52,25 @@ output:
 - 2016 US presidential candidates and the memes created about them
 - pplapi: a computer simulation of the human population
 
-# social psychology meets artificial intelligence
+<!-- - simulating the contact effect -->
+
+# social psychology meets artificial intelligence | diving into the academic social network
 
 ## Academic collaboration network {.side-image}
 
-![10th Macy Conference](assets/macy-10th-conference.jpg)
+![10th Macy Conference group photo](assets/macy-10th-conference.jpg)
 
 - Lewin and von Neumann meet at Macy 1 and 2:
     - March 1946
     - October 1946
 - consider that moment in time as a starting point
 - imagine spidering their social networks
-- social net with one particular constraint
-    + authors are linked via co-authorship
+- social network with one particular constraint:
+    + authors must be linked via co-authorship
 
 ## Leveraging BibTeX {.side-image}
 
-![BibTeX](assets/bibtex.png)
+![some example BibTeX](assets/bibtex.png)
 
 - database of citations
 - BibTeX is the interchange format
@@ -75,11 +80,12 @@ output:
         - Python
         - LaTeX
     + ugly, but good enough
-- library consists of $n \approx$ 2500 citations
+- my Zotero library consists of $n \approx$ 2500 citations
+    + autoexport plugin syncs a .bib file
 
-## Visualizing the network {.side-image}
+## Visualizing the network | [http://imiller.utsc.utoronto.ca/media/network/](http://imiller.utsc.utoronto.ca/media/network/) {.side-image}
 
-![Academic collaboration network](assets/academic-network.png)
+<img src="assets/academic-network.png" style="height: 400px;" />
 
 - identify the largest component
     + $n_{authors} = 1574$
@@ -88,8 +94,6 @@ output:
     + library is curated, not randomly sampled
 - calculate modularity (stochastic) to identify communities
     + $n_{communities} = 34$
-- http://imiller.utsc.utoronto.ca
-    + [/media/network/](http://imiller.utsc.utoronto.ca/media/network/)
 
 ## {.fill .nobackground}
 
@@ -99,7 +103,7 @@ output:
 
 ## Insights {.side-image}
 
-![The missing link](assets/feynman.png)
+![The missing link?](assets/feynman.png)
 
 - citation data "in the wild" are very poor quality
 - the communities (detected by modularity) seem plausible
@@ -176,7 +180,12 @@ output:
     + `pip install pub2`
     + http://pub2.readthedocs.io
 
-# memelab (2012)
+# memelab | human behaviour, viral phenomena, and social simulation
+
+## memes
+
+- this is where I started in 2011
+- Dawkins (1976): cultural replicator
 
 # 2016 US presidential candidates and the memes created about them
 
@@ -208,7 +217,16 @@ output:
 
 ![picture of chess pieces](assets/strategy.jpg)
 
-# Conclusion
+# Closing | A few last things
+
+## Conclusions
+
+
 
 ## Thank you
 
+- thank you for the opportunity to present
+- this presentation is online
+    - http://iandennismiller.github.io/net-complex-intel
+- contact information
+    - http://imiller.utsc.utoronto.ca
