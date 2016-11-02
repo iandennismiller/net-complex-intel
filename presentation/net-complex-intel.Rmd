@@ -12,17 +12,67 @@ output:
 
 # A Story about Cybernetics
 
-## Cybernetics
+## Cybernetics {.side-image}
 
-## The Macy Conferences
+![Cybernetics](assets/stock/cybernetics.png)
 
-## John von Neumann
+- observations of human/machine interactions during World War 2
+    + computer-assisted anti-aircraft guns
+    + inspired by / enabled systems analysis
+- from Greek *kybernetike* for "governance"
+- feedback loops: outputs connected to inputs
+- the foundational meetings were the Macy Conferences
 
-- not just von Neumann. Norbert Wiener, Warren McCullouch, JCR Licklider, and many other notable scientists 
+## The Macy Conferences {.side-image}
 
-## Kurt Lewin
+![10th Macy Conference group photo](assets/coauthorship/macy-10th-conference.jpg)
 
-## A Missed Connection
+- started in 1946, in New York City
+- early Computer Scientists (there were about 3 digital computers in existence)
+    - John von Neumann, Norbert Wiener, Warren McCullouch, JCR Licklider, and many others
+- psychologists from the Gestalt school
+    + Kurt Lewin, Wolfgang Köhler
+    + "the whole is different from the sum of its parts"
+    + attracted to systems/feedback loops
+
+## John von Neumann {.side-image}
+
+![John von Neumann](assets/stock/john-von-neumann.jpg)
+
+- the original hacker?
+    + simulated nuclear explosions in WW2
+    + wrote code for ENIAC, UNIVAC, whatever
+    + *no programming language had been invented yet*
+- pioneer of big data
+- von Neumann computer architecture
+- very active in academic society
+    + at the right place at the right time
+    + repeatedly
++ Influenced: Mandelbrot, Feynman, Wolfram
+
+## Kurt Lewin {.side-image}
+
+![Kurt Lewin](assets/stock/kurt-lewin.jpg)
+
+- sometimes called the father of Social Psychology
+- Field Theory: $B = f(P, S)$
+    + **behaviour** is a function of the **person** and their **situation**
+    + people respond differently to different situations
+        + our perceptions are part of the situation
+- Lewin presented Field Theory at the 2nd Macy Conference.
+- Influenced: Köhler, Bandura, Mischel, Shioda
+
+## Missed Connections {.side-image}
+
+![Reaching hands](assets/stock/hands-reach.jpg)
+
+- Cybernetic movement rapidly collapsed
+    + Artificial Intelligence partly took up the cause
+    + Computer Science sortof dominated
+    + Psychology, despite studying mind and brain, remained at a distance
+- Social Psychology and Personality Psychology split over Lewin's Theory
+    + possibly for lack of a computational, analytic framework?
+- the students of von Neumann never connected with the students of Lewin
 
 # Introduction
 
@@ -53,18 +103,18 @@ output:
     - please ask for clarification
     - please save theoretical questions until the end
 
-## Overview {.side-image .smaller}
+## Overview {.side-image}
 
 ![Itinerary by Matthew Paris ca. 1250-1259](assets/stock/itinerary.jpg)
 
 - social psychology meets artificial intelligence
-- memelab: human meme experiment and campus-scale simulation
-- pub2: a meditation upon self publication
-- topoli: memes, individuals, and the crowd
-- rofo: the Rob Ford social network
-- gh-impact: the influence of Individuals and Organizations in open source software
-- 2016 US presidential candidates and the memes created about them
-- pplapi: a computer simulation of the human population
+- **memelab**: meme sharing
+- **pub2**: self publishing
+- **topoli**: twitter political memes
+- **rofo**: Rob Ford social network
+- **gh-impact**: influence in open source software
+- **election-memes**: 2016 US election memes
+- **pplapi**: human simulacrum as a service
 
 <!--
 - simulating the contact effect
@@ -125,6 +175,7 @@ output:
 
 ![The missing link?](assets/coauthorship/feynman.png)
 
+- situated myself in the citation graph
 - citation data "in the wild" are very poor quality
 - the communities (detected by modularity) seem plausible
 - some communities resisted collaboration
@@ -146,7 +197,7 @@ output:
 - **pub2**: a system for self-publishing
     + all you need is a PDF and a .bib file that links to it
 
-## Where do you publish? {.side-image}
+## Where do you publish? {.side-image .smaller}
 
 ![Hoe's one cylidner printing press](assets/stock/printing-press.png)
 

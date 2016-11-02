@@ -39,3 +39,6 @@ In this talk, I will discuss several recent studies, including:
 - Twitter pattern: https://pixabay.com/en/twitter-twitter-pattern-twitter-icon-1138523/
 - Panning for gold: https://www.flickr.com/photos/nerdcoregirl/3880359066
 - Earth: https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg
+- Cybernetics: https://commons.wikimedia.org/wiki/File:SOCyberntics.png
+- Hands reach: https://www.flickr.com/photos/blmnevada/9607555893
+- 

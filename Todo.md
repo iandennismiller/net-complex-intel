@@ -2,13 +2,12 @@
 
 ## Milestone 1
 
-- [ ] Urban Legends
-- [ ] pplapi
 - [ ] macy conferences story: intro and outro
 - [ ] add arrows
 
 ## Milestone 2
 
+- [ ] Urban Legends
 - [ ] simulating the contact effect
 - [ ] gthnk
 - [ ] flask-diamond
@@ -27,3 +26,4 @@
 - [x] rofo
 - [x] gh-impact
 - [x] Election Memes
+- [x] pplapi
