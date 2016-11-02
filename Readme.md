@@ -34,3 +34,5 @@ In this talk, I will discuss several recent studies, including:
 - Calculator: https://www.pexels.com/photo/scientific-calculator-ii-5775/
 - Work: https://www.pexels.com/photo/black-and-white-city-man-people-1984/
 - Future Road: https://www.pexels.com/photo/road-street-desert-industry-932/
+- Chapel ceiling: https://commons.wikimedia.org/wiki/File:Vo%C3%BBte_de_l%27%C3%A9glise_Saint-S%C3%A9verin_%C3%A0_Paris.jpg
+- 

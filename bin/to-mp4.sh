@@ -6,8 +6,9 @@ FILENAME=$1
 OUTFILE=$2
 FPS=5
 BPS=192k
+# BPS=384k
 
-if [[ $@ -lt 2 ]]; then
+if [[ $# -lt 2 ]]; then
     echo "usage: $0 infile outfile"
     exit
 fi

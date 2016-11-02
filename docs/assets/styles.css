@@ -25,6 +25,36 @@ article.bigger q:before, article.bigger q:after {
   font-size: 64px;
 }
 
+/* video slide */
+
+article.video-slide p.video-title {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+article.video-slide video {
+    width: 990px;
+    height: 600px;
+    margin-top: -50px;
+}
+
+/* image-slide */
+
+article.image-slide {
+  margin-top: 0;
+}
+
+
+article.image-slide img {
+  display: block;
+  margin: 0 auto;
+  height: 550px;
+}
+
+article.image-slide p.caption {
+  font-size: 20px;
+}
+
 /* side-image */
 
 article.side-image {
@@ -47,12 +77,6 @@ article.side-image p.caption {
     font-size: 16pt;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.big-video {
-    width: 990px;
-    height: 600px;
-    margin-top: -50px;
 }
 
 /* Individual Slides */

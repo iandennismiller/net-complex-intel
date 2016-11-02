@@ -43,6 +43,16 @@ output:
     - MA Psychology, University of Toronto
 - http://imiller.utsc.utoronto.ca
 
+## Structure of presentation {.side-image .bigger}
+
+![Voûte de l'église Saint-Séverin à Paris](assets/stock/chapel-ceiling.jpg)
+
+- buffet sample pack
+- back-to-back "lightning talks"
+- questions
+    - please ask for clarification
+    - please save theoretical questions until the end
+
 ## Overview {.side-image .smaller}
 
 ![Itinerary by Matthew Paris ca. 1250-1259](assets/stock/itinerary.jpg)
@@ -56,7 +66,11 @@ output:
 - 2016 US presidential candidates and the memes created about them
 - pplapi: a computer simulation of the human population
 
-<!-- - simulating the contact effect -->
+<!--
+- simulating the contact effect
+- gthnk
+- flask-diamond
+-->
 
 # Social Psychology meets Artificial Intelligence | diving into the academic social network
 
@@ -99,9 +113,9 @@ output:
 - calculate modularity (stochastic) to identify communities
     + $n_{communities} = 34$
 
-## {.fill .nobackground}
+## {.video-slide}
 
-<video class="big-video" controls autoplay>
+<video controls autoplay>
 <source src="assets/coauthorship/academic-network.mp4" type="video/mp4">
 </video>
 
@@ -122,7 +136,7 @@ output:
 
 ## What is publication? {.side-image .bigger}
 
-![an article](assets/stock/article.png)
+![an article](assets/stock/article.jpg)
 
 - publication in 2016, that is
 - where do you publish?
@@ -244,7 +258,7 @@ output:
 - open data: download raw JSON from GitHub
 - http://www.gh-impact.com
 
-## Conclusion {.side-image .bigger}
+## Summary {.side-image .bigger}
 
 ![The future, figuratively](assets/stock/future-road.jpg)
 
@@ -260,6 +274,64 @@ output:
 
 - this is where I started in 2011
 - Dawkins (1976): cultural replicator
+
+## {.side-image .bigger}
+
+![Meme choice screen on meme8.com](assets/memelab/meme8-screenshot.png)
+
+## {.side-image .bigger}
+
+![Sharing screen on meme8.com](assets/memelab/meme8-share.png)
+
+## {.video-slide}
+
+<video controls autoplay>
+<source src="assets/memelab/meme8_quick.mp4" type="video/mp4">
+</video>
+
+<p class="video-title">
+Usage of meme8.com
+</p>
+
+## A meme created in the study {.image-slide}
+
+![The IC building is out at UTSC](assets/memelab/example-meme.png)
+
+## {.side-image .bigger}
+
+![Cumulative views over time](assets/memelab/cumulative-views.png)
+
+## {.side-image .bigger}
+
+![Total hits received per meme](assets/memelab/total-hits.png)
+
+## {.side-image .bigger}
+
+![Model of intention to share](assets/memelab/intention-to-share.png)
+
+## {.side-image .bigger}
+
+![Regression function](assets/memelab/regression-function.png)
+
+## {.side-image .bigger}
+
+![Simulation zoomed detail](assets/memelab/simulation-detail.png)
+
+## {.video-slide}
+
+<video controls autoplay>
+<source src="assets/memelab/memelab.mp4" type="video/mp4">
+</video>
+
+<p class="video-title">
+example run of Repast simulation
+</p>
+
+## {.side-image .bigger}
+
+![Simulation result time series](assets/memelab/simulation-result.png)
+
+## Summary
 
 # topoli | individuals, group influence, and political memes
 
@@ -320,13 +392,37 @@ results: the n-grams that are co-original (not duplicates)
     + many people expressed a similar sentiment
 - the shirtless jogger
 
-# rofo
+# rofo | The Rob Ford social network
 
-# Election Memes | 2016 US presidential candidates and the memes created about them
+## b {.side-image .bigger}
 
-# Urban Legends | network topology affects meme transmission
+![Ford at Windsor Rd](assets/rofo/ford-windsor-rd.png)
 
-# pplapi | a computer simulation of the human population
+## a {.side-image .bigger}
+
+![Lisi ITO](assets/rofo/dossier.png)
+
+## {.video-slide}
+
+<video controls autoplay>
+<source src="assets/rofo/situation.mp4" type="video/mp4">
+</video>
+
+## {.video-slide}
+
+<video controls autoplay>
+<source src="assets/rofo/web-ui.mp4" type="video/mp4">
+</video>
+
+## c {.side-image .bigger}
+
+![Network detail](assets/rofo/network-snapshot.png)
+
+# Election Memes | 2016 US presidential candidates and the memes about them
+
+# Urban Legends | Network topology affects meme transmission
+
+# pplapi | A computer simulation of the human population
 
 # Closing | A few last things
 
