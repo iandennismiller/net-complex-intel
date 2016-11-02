@@ -18,11 +18,19 @@ In this talk, I will discuss several recent studies, including:
 
 ## Images
 
-- Strategy: [https://en.wikipedia.org/wiki/File:Strategy.jpg](https://en.wikipedia.org/wiki/File:Strategy.jpg)
-- 10th Macy Conferences Image: [http://www.asc-cybernetics.org/foundations/history/Macy10Photo.htm](http://www.asc-cybernetics.org/foundations/history/Macy10Photo.htm)
-- BibTeX: [https://commons.wikimedia.org/wiki/File:Example_bibtex2.png](https://commons.wikimedia.org/wiki/File:Example_bibtex2.png)
-- Article: [https://commons.wikimedia.org/wiki/File:Article_1.png](https://commons.wikimedia.org/wiki/File:Article_1.png)
-- Printing press: [https://commons.wikimedia.org/wiki/File:Hoe%27s_one_cylinder_printing_press.png](https://commons.wikimedia.org/wiki/File:Hoe%27s_one_cylinder_printing_press.png)
-- Library: [https://commons.wikimedia.org/wiki/File:Bibliothek_St._Florian.jpg](https://commons.wikimedia.org/wiki/File:Bibliothek_St._Florian.jpg)
-- Zines: [https://commons.wikimedia.org/wiki/File:UK_and_US_zines.jpg](https://commons.wikimedia.org/wiki/File:UK_and_US_zines.jpg)
-- Itinerary: [https://commons.wikimedia.org/wiki/File:Itinerary_by_Matthew_Paris_-_Historia_Anglorum_(1250-1259),_f.2_-_BL_Royal_MS_14_C_VII.jpg](https://commons.wikimedia.org/wiki/File:Itinerary_by_Matthew_Paris_-_Historia_Anglorum_(1250-1259),_f.2_-_BL_Royal_MS_14_C_VII.jpg)
+- Strategy: https://en.wikipedia.org/wiki/File:Strategy.jpg
+- 10th Macy Conferences Image: http://www.asc-cybernetics.org/foundations/history/Macy10Photo.htm
+- BibTeX: https://commons.wikimedia.org/wiki/File:Example_bibtex2.png
+- Article: https://commons.wikimedia.org/wiki/File:Article_1.png
+- Printing press: https://commons.wikimedia.org/wiki/File:Hoe%27s_one_cylinder_printing_press.png
+- Library: https://commons.wikimedia.org/wiki/File:Bibliothek_St._Florian.jpg
+- Zines: https://commons.wikimedia.org/wiki/File:UK_and_US_zines.jpg
+- Itinerary: https://commons.wikimedia.org/wiki/File:Itinerary_by_Matthew_Paris_-_Historia_Anglorum_(1250-1259),_f.2_-_BL_Royal_MS_14_C_VII.jpg
+- Water drop: https://commons.wikimedia.org/wiki/File:Water_drop_impact_on_a_water-surface_-_(5).jpg
+- Trees: https://www.pexels.com/photo/nature-forest-trees-bamboo-5091/
+- Stone palm: https://www.pexels.com/photo/monochrome-no-person-food-dark-112649/
+- Road: https://www.pexels.com/photo/road-sky-clouds-cloudy-215/
+- Crowd: https://www.pexels.com/photo/city-sunny-people-street-2752/
+- Calculator: https://www.pexels.com/photo/scientific-calculator-ii-5775/
+- Work: https://www.pexels.com/photo/black-and-white-city-man-people-1984/
+- Future Road: https://www.pexels.com/photo/road-street-desert-industry-932/

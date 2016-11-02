@@ -180,6 +180,74 @@ output:
     + `pip install pub2`
     + http://pub2.readthedocs.io
 
+# gh-impact | the influence of Individuals and Organizations in open source software
+
+## Overview {.side-image .bigger}
+
+![Tall Trees](assets/trees.jpg)
+
+- What is gh-impact?
+- Where does gh-impact come from?
+- Who does gh-impact apply to?
+- Why does gh-impact matter?
+- How can I use gh-impact?
+
+## What is **gh-impact**? {.side-image .bigger}
+
+![Stone](assets/stone-palm.jpg)
+
+- captures breadth and depth of project use on GitHub
+- gh-impact score is n if there are n projects with n stars
+    - ex: 1, 1, 1 = 1
+    - ex: 1, 2, 3 = 2
+- "gh" stands for "good & hot"
+
+## Where does **gh-impact** come from? {.side-image .bigger}
+
+![The open road](assets/road.jpg)
+
+- related to academic citation analysis ("bibliometrics")
+- GitHub public data API
+- GHTorrent data dumps
+- own custom statistics pipeline
+
+## Who does **gh-impact** apply to? {.side-image .bigger}
+
+![Crowd of people](assets/crowd.jpg)
+
+- all accounts on GitHub
+- individuals and organizations
+- must have at least one star to have a **gh-impact** score
+- not just software: websites, curation, science ...
+
+## Why does **gh-impact** matter? {.side-image .bigger}
+
+![Science, generally](assets/calculator.jpg)
+
+- assess productive output of accounts
+- get credit for open source work (e.g. academics)
+- **gh-impact** is a key metric for developing other analyses
+- intelligence about open source software
+
+## How can I use **gh-impact**? {.side-image .bigger}
+
+![People discussing things](assets/work.jpg)
+
+- search: **gh-impact** scores for over 1.1 million accounts
+- analysis: results from ongoing statistical analysis are regularly posted
+- open data: download raw JSON from GitHub
+- http://www.gh-impact.com
+
+## Conclusion {.side-image .bigger}
+
+![The future, figuratively](assets/future-road.jpg)
+
+- gh-impact is a measure of influence on GitHub
+- similar to how influence is measured in academia
+- describes both individual and organization GitHub accounts
+- gain intelligence about open source software
+- search, analysis, and data on http://www.gh-impact.com
+
 # memelab | human behaviour, viral phenomena, and social simulation
 
 ## memes
