@@ -36,3 +36,6 @@ In this talk, I will discuss several recent studies, including:
 - Future Road: https://www.pexels.com/photo/road-street-desert-industry-932/
 - Chapel ceiling: https://commons.wikimedia.org/wiki/File:Vo%C3%BBte_de_l%27%C3%A9glise_Saint-S%C3%A9verin_%C3%A0_Paris.jpg
 - Aluminum Roof: https://pixabay.com/en/the-structure-lined-pattern-1034946/
+- Twitter pattern: https://pixabay.com/en/twitter-twitter-pattern-twitter-icon-1138523/
+- panning for gold: https://www.flickr.com/photos/nerdcoregirl/3880359066
+- 

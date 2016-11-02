@@ -632,18 +632,22 @@ example run of Repast simulation
 <li>run simulation and obtained similar results</li>
 </ul>
 
-</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>topoli </h2><h3> individuals, group influence, and political memes</h3></hgroup><article  id="topoli-individuals-group-influence-and-political-memes">
+</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>#topoli </h2><h3> individuals, group influence, and political memes</h3></hgroup><article  id="topoli-individuals-group-influence-and-political-memes">
 
-</article></slide><slide class=''><hgroup><h2>topoli</h2></hgroup><article  id="topoli" class="side-image bigger">
+</article></slide><slide class=''><hgroup><h2>#topoli</h2></hgroup><article  id="topoli" class="side-image bigger">
+
+<img src='assets/topoli/toronto-city-hall.png' title='fig:'/><p class='caption'>Toronto City Hall</p>
 
 <ul>
 <li>a hash tag is used to channel tweets towards interested audiences</li>
-<li>topoli = toronto politics</li>
-<li></article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>topoli used to discuss municipal politics related to Toronto.</h2></hgroup><article  id="topoli-used-to-discuss-municipal-politics-related-to-toronto."></li>
+<li>topoli = <strong>to</strong>ronto <strong>poli</strong>tics</li>
+<li>#topoli used to discuss municipal politics related to Toronto.</li>
 <li>analogous hashtags #onpoli and #capoli</li>
 </ul>
 
 </article></slide><slide class=''><hgroup><h2>Twitter sample</h2></hgroup><article  id="twitter-sample" class="side-image bigger">
+
+<img src='assets/stock/twitter-pattern.jpg' title='fig:'/><p class='caption'>The bird</p>
 
 <ul>
 <li>observed 1,276,077 tweets between Nov 2013 - January 2015</li>
@@ -667,42 +671,83 @@ example run of Repast simulation
 <li>but the GPS speaks for itself</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>topoli in 3-gram phrases</h2></hgroup><article  id="topoli-in-3-gram-phrases">
+</article></slide><slide class=''><hgroup><h2>topoli in 3-gram phrases</h2></hgroup><article  id="topoli-in-3-gram-phrases" class="side-image">
 
-<p>frequency frequency minus “stopwords” pointwise mutual information (PMI) mayor rob ford looking forward to the gravy train at city hall mayor of toronto the island airport topoli rob ford toronto mayoral race little red apples rob ford topoli city of toronto a speedy recovery topoli john tory this is the the shirtless jogger</p>
-
-</article></slide><slide class=''><hgroup><h2>method for selecting n-grams</h2></hgroup><article  id="method-for-selecting-n-grams">
-
-<p>only original tweets remove retweets (which inflate n-gram frequency) PMI is like chi-square how often did we observe the n-gram versus expected number of observations results: the n-grams that are co-original (not duplicates)</p>
-
-</article></slide><slide class=''><hgroup><h2>and the memes are&#8230;</h2></hgroup><article  id="and-the-memes-are...">
+<img src='assets/stock/panning-for-gold.jpg' title='fig:'/><p class='caption'>panning for gold</p>
 
 <ul>
-<li>“the gravy train”
+<li>frequency minus “stopwords”
 
 <ul>
-<li>a campaign slogan in 2010</li>
-<li>a reference to government spending</li>
+<li>looking forward to</li>
+<li>mayor of toronto</li>
+<li>toronto mayoral race</li>
+<li>city of toronto</li>
+<li>this is the</li>
 </ul></li>
-<li>“the island airport”
+<li>pointwise mutual information (PMI)
 
 <ul>
-<li>there’s actually an airport right downtown</li>
-<li>construction is hotly contested</li>
-</ul></li>
-<li>“little red apples”
-
-<ul>
-<li>“It doesn&#39;t have to be about race. You can be a racist against people that eat little red apples.”</li>
-<li>(this was spoken by Rob Ford’s brother)</li>
-</ul></li>
-<li>“a speedy recovery”
-
-<ul>
-<li>following Rob Ford’s cancer announcement</li>
-<li>many people expressed a similar sentiment</li>
-</ul></li>
+<li>the gravy train</li>
+<li>the island airport</li>
+<li>little red apples</li>
+<li>a speedy recovery</li>
 <li>the shirtless jogger</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>method for selecting n-grams</h2></hgroup><article  id="method-for-selecting-n-grams" class="side-image bigger">
+
+<img src='assets/stock/panning-for-gold.jpg' title='fig:'/><p class='caption'>panning for gold</p>
+
+<ul>
+<li>only original tweets</li>
+<li>remove retweets (which inflate n-gram frequency)</li>
+<li>PMI is like chi-square</li>
+<li>how often did we observe the n-gram versus expected number of observations</li>
+<li>results: the n-grams that are co-original (not duplicates)</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Clique detection</h2></hgroup><article  id="clique-detection" class="side-image bigger">
+
+<img src='assets/topoli/well-connected-twitterers.png' title='fig:'/><p class='caption'>Well-connected Accounts</p>
+
+<ul>
+<li>I chose a random walk-based approach</li>
+<li>pick a random person from the network</li>
+<li>randomly pick someone they follow; repeat</li>
+<li>if people are connected within n steps, they are in a community</li>
+<li>run this thousands of times</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Well-connected Twitter Accounts</h2></hgroup><article  id="well-connected-twitter-accounts" class="image-slide">
+
+<img src='assets/topoli/well-connected-twitterers.png' title='fig:'/><p class='caption'>Well-connected Accounts</p>
+
+</article></slide><slide class=''><hgroup><h2>Even better-connected accounts</h2></hgroup><article  id="even-better-connected-accounts" class="image-slide">
+
+<img src='assets/topoli/celebrity-twitterers.png' title='fig:'/><p class='caption'>Basically, celebrities</p>
+
+</article></slide><slide class=''><hgroup><h2>Skimming over the results&#8230;</h2></hgroup><article  id="skimming-over-the-results..." class="side-image bigger">
+
+<img src='assets/stock/calculator.jpg' title='fig:'/><p class='caption'>Calculator</p>
+
+<ul>
+<li>meme content is predictive of retweets</li>
+<li>knowing an individual’s group provides a better prediction of meme propagation than meme content alone</li>
+<li>better communities may yield better model fit</li>
+<li>evidence that individuals differ in their unique abilities to harness memes towards retweets</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Summary</h2></hgroup><article  id="summary-2" class="side-image bigger">
+
+<img src='assets/stock/aluminum-roof.jpg' title='fig:'/><p class='caption'>Geometric roof</p>
+
+<ul>
+<li>social network analysis serves to organize a huge amount of social data</li>
+<li>potential memes can be identified by extracting n-grams from original tweets, and it explains some variance in retweets</li>
+<li>“cliques” can be identified according to who is more closely connected with whom</li>
+<li>each meme is unique, and individuals differ in their ability to successfully tweet a meme.</li>
 </ul>
 
 </article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>rofo </h2><h3> The Rob Ford social network</h3></hgroup><article  id="rofo-the-rob-ford-social-network">

@@ -400,16 +400,20 @@ example run of Repast simulation
 - "ported" sharing model to an agent-based model
 - run simulation and obtained similar results
 
-# topoli | individuals, group influence, and political memes
+# &#35;topoli | individuals, group influence, and political memes
 
-## topoli {.side-image .bigger}
+## &#35;topoli {.side-image .bigger}
+
+![Toronto City Hall](assets/topoli/toronto-city-hall.png)
 
 - a hash tag is used to channel tweets towards interested audiences
-- topoli = toronto politics
-- #topoli used to discuss municipal politics related to Toronto.
-- analogous hashtags #onpoli and #capoli
+- topoli = **to**ronto **poli**tics
+- &#35;topoli used to discuss municipal politics related to Toronto.
+- analogous hashtags &#35;onpoli and &#35;capoli
 
 ## Twitter sample {.side-image .bigger}
+
+![The bird](assets/stock/twitter-pattern.jpg)
 
 - observed 1,276,077 tweets between Nov 2013 - January 2015
 - 832,889 imported so far
@@ -426,38 +430,68 @@ example run of Repast simulation
     - 8,420 (16%) included “canada” in location
 - but the GPS speaks for itself
 
-## topoli in 3-gram phrases
+## topoli in 3-gram phrases {.side-image}
 
-frequency   frequency minus “stopwords” pointwise mutual information (PMI)
-mayor rob ford  looking forward to  the gravy train
-at city hall    mayor of toronto    the island airport
-topoli rob ford toronto mayoral race    little red apples
-rob ford topoli city of toronto a speedy recovery
-topoli john tory    this is the the shirtless jogger
+![panning for gold](assets/stock/panning-for-gold.jpg)
 
-## method for selecting n-grams
+- frequency minus “stopwords”
+    - looking forward to
+    - mayor of toronto
+    - toronto mayoral race
+    - city of toronto
+    - this is the
+- pointwise mutual information (PMI)
+    - the gravy train
+    - the island airport
+    - little red apples
+    - a speedy recovery
+    - the shirtless jogger
 
-only original tweets
-remove retweets (which inflate n-gram frequency)
-PMI is like chi-square
-how often did we observe the n-gram versus expected number of observations
-results: the n-grams that are co-original (not duplicates)
+## method for selecting n-grams {.side-image .bigger}
 
-## and the memes are...
+![panning for gold](assets/stock/panning-for-gold.jpg)
 
-- “the gravy train”
-    + a campaign slogan in 2010
-    + a reference to government spending
-- “the island airport”
-    + there’s actually an airport right downtown
-    + construction is hotly contested
-- “little red apples”
-    + “It doesn't have to be about race.  You can be a racist against people that eat little red apples.”
-    + (this was spoken by Rob Ford’s brother)
-- “a speedy recovery”
-    + following Rob Ford’s cancer announcement
-    + many people expressed a similar sentiment
-- the shirtless jogger
+- only original tweets
+- remove retweets (which inflate n-gram frequency)
+- PMI is like chi-square
+- how often did we observe the n-gram versus expected number of observations
+- results: the n-grams that are co-original (not duplicates)
+
+## Clique detection {.side-image .bigger}
+
+![Well-connected Accounts](assets/topoli/well-connected-twitterers.png)
+
+- I chose a random walk-based approach
+- pick a random person from the network
+- randomly pick someone they follow; repeat
+- if people are connected within n steps, they are in a community
+- run this thousands of times
+
+## Well-connected Twitter Accounts {.image-slide}
+
+![Well-connected Accounts](assets/topoli/well-connected-twitterers.png)
+
+## Even better-connected accounts {.image-slide}
+
+![Basically, celebrities](assets/topoli/celebrity-twitterers.png)
+
+## Skimming over the results... {.side-image .bigger}
+
+![Calculator](assets/stock/calculator.jpg)
+
+- meme content is predictive of retweets
+- knowing an individual’s group provides a better prediction of meme propagation than meme content alone
+- better communities may yield better model fit
+- evidence that individuals differ in their unique abilities to harness memes towards retweets
+
+## Summary {.side-image .bigger}
+
+![Geometric roof](assets/stock/aluminum-roof.jpg)
+
+- social network analysis serves to organize a huge amount of social data
+- potential memes can be identified by extracting n-grams from original tweets, and it explains some variance in retweets
+- “cliques” can be identified according to who is more closely connected with whom
+- each meme is unique, and individuals differ in their ability to successfully tweet a meme.
 
 # rofo | The Rob Ford social network
 
