@@ -110,27 +110,71 @@ output:
 - von Neumann is *very* distantly connected to Lewin's students
     + Lewin's death may have dashed any chances of a collaboration
 
-# pub2
+# pub2 | a brief interlude on the subject of online scholarship
 
-## What is publication?
+## What is publication? {.side-image .bigger}
+
+![an article](assets/article.png)
 
 - publication in 2016, that is
-- prepub:
+- where do you publish?
+- where do you find articles?
+- **pub2**: a system for self-publishing
+    + all you need is a PDF and a .bib file that links to it
+
+## where do you publish? {.side-image}
+
+![Hoe's one cylidner printing press](assets/printing-press.png)
+
++ books
++ conferences
+    * proceedings
+    * presentations
++ journals
+    * science-wide
+    * discipline-specific
++ pre-publication:
     - arXiv
     - SSRN
     - fooXiv
+- **self-publication??**
 
-## Targeting Google Scholar
+## where do you find articles? {.side-image .bigger}
 
-- goal: get BibTeX indexed
-- digital object identifier
-    + DOI
-    + PURL (meh)
+![Bibliothek St. Florian](assets/library.jpg)
+
+- citeseer/citeulike/worldcat
+- pubmed/government portal
+- publisher search (ha!)
+- open journals
+- university or public library
+- Google scholar
+    - warning: you will be rate-limited
+
+## self-publication {.side-image .bigger}
+
+![Zines](assets/zines.jpg)
+
+- goal: get BibTeX indexed by Google Scholar
+- digital object identifier?
+- serve it yourself.  Google don't care
 - archival format
+    + HTML?
     + PDF
-    + HTML
+- **pub2** is a system for making this realistic
 
-## learn more about pub2
+## pub2 {.side-image}
+
+![pub2 source](assets/pub2-src.png)
+
+- like Jekyll (static site generator) for PDFs
+    - generates PDF and .bib file that links to PDF
+    - simple LaTeX isn't so different from Markdown
+    - YAML preamble/templating like Jekyll
+    - actually sits on top of an existing Jekyll install
+- more info
+    + `pip install pub2`
+    + http://pub2.readthedocs.io
 
 # memelab (2012)
 

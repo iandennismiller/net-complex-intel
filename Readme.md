@@ -21,3 +21,7 @@ In this talk, I will discuss several recent studies, including:
 - Strategy: [https://en.wikipedia.org/wiki/File:Strategy.jpg](https://en.wikipedia.org/wiki/File:Strategy.jpg)
 - 10th Macy Conferences Image: [http://www.asc-cybernetics.org/foundations/history/Macy10Photo.htm](http://www.asc-cybernetics.org/foundations/history/Macy10Photo.htm)
 - BibTeX: [https://commons.wikimedia.org/wiki/File:Example_bibtex2.png](https://commons.wikimedia.org/wiki/File:Example_bibtex2.png)
+- Article: [https://commons.wikimedia.org/wiki/File:Article_1.png](https://commons.wikimedia.org/wiki/File:Article_1.png)
+- Printing press: [https://commons.wikimedia.org/wiki/File:Hoe%27s_one_cylinder_printing_press.png](https://commons.wikimedia.org/wiki/File:Hoe%27s_one_cylinder_printing_press.png)
+- Library: [https://commons.wikimedia.org/wiki/File:Bibliothek_St._Florian.jpg](https://commons.wikimedia.org/wiki/File:Bibliothek_St._Florian.jpg)
+- Zines: [https://commons.wikimedia.org/wiki/File:UK_and_US_zines.jpg](https://commons.wikimedia.org/wiki/File:UK_and_US_zines.jpg)
