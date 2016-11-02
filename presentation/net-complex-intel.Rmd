@@ -202,7 +202,9 @@ output:
 
 ## Overview {.side-image .bigger}
 
-![Tall Trees](assets/stock/trees.jpg)
+<!-- ![Tall Trees](assets/stock/trees.jpg) -->
+
+![Percent of accounts belonging to Organizations](assets/gh-impact/account_percent-1.png)
 
 - What is gh-impact?
 - Where does gh-impact come from?
@@ -212,7 +214,9 @@ output:
 
 ## What is **gh-impact**? {.side-image .bigger}
 
-![Stone](assets/stock/stone-palm.jpg)
+<!-- ![Stone](assets/stock/stone-palm.jpg) -->
+
+![Top-10](assets/gh-impact/top-10-thumb.png)
 
 - gh-impact is a measure of influence on GitHub.
 - Accounts that publish lots of popular projects will have higher gh-impact scores.
@@ -224,7 +228,9 @@ output:
 
 ## Where does **gh-impact** come from? {.side-image .bigger}
 
-![The open road](assets/stock/road.jpg)
+<!-- ![The open road](assets/stock/road.jpg) -->
+
+![99th Percentile Organizations](assets/gh-impact/area_99th_percentile_organizations-1.png)
 
 - related to academic citation analysis ("bibliometrics")
 - GitHub public data API
@@ -233,7 +239,9 @@ output:
 
 ## Who does **gh-impact** apply to? {.side-image .bigger}
 
-![Crowd of people](assets/stock/crowd.jpg)
+<!-- ![Crowd of people](assets/stock/crowd.jpg) -->
+
+![Individuals vs Organizations](assets/gh-impact/stars_penalty_plot-1.png)
 
 - all accounts on GitHub
 - individuals and organizations
@@ -242,7 +250,9 @@ output:
 
 ## Why does **gh-impact** matter? {.side-image .bigger}
 
-![Science, generally](assets/stock/calculator.jpg)
+<!-- ![Science, generally](assets/stock/calculator.jpg) -->
+
+![Organizations can scale up](assets/gh-impact/max_stars_impact-1.png)
 
 - assess productive output of accounts
 - get credit for open source work (e.g. academics)
@@ -251,7 +261,9 @@ output:
 
 ## How can I use **gh-impact**? {.side-image .bigger}
 
-![People discussing things](assets/stock/work.jpg)
+<!-- ![People discussing things](assets/stock/work.jpg) -->
+
+![in Collective Intelligence proceedings](assets/gh-impact/article-thumb.png)
 
 - search: **gh-impact** scores for over 1.1 million accounts
 - analysis: results from ongoing statistical analysis are regularly posted
