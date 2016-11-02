@@ -2,8 +2,6 @@
 
 ## Milestone 1
 
-- [ ] gh-impact
-- [ ] Election Memes
 - [ ] Urban Legends
 - [ ] pplapi
 - [ ] macy conferences story: intro and outro
@@ -27,3 +25,5 @@
 - [x] memelab
 - [x] topoli
 - [x] rofo
+- [x] gh-impact
+- [x] Election Memes

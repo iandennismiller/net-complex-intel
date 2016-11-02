@@ -48,6 +48,7 @@ article.image-slide {
 article.image-slide img {
   display: block;
   margin: 0 auto;
+  min-height: 500px;
   max-height: 550px;
   max-width: 800px;
 }

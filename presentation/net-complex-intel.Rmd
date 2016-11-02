@@ -576,6 +576,26 @@ example run of Repast simulation
 
 # Election Memes | 2016 US presidential candidates and the memes about them
 
+## Date Range {.image-slide}
+
+![Attention ramps up as we approach the big day](assets/election-memes/date-range-1.png)
+
+## Memes per Candidate by Network {.image-slide}
+
+![Networks do not appear to be used evenly](assets/election-memes/candidate-memes-1.png)
+
+## Standardizing between networks {.image-slide}
+
+![The networks are not the same](assets/election-memes/network-likes-range-1.png)
+
+## Candidates attention over time {.image-slide}
+
+![The scores vary over time](assets/election-memes/score-change-1.png)
+
+## The photo finish? {.image-slide}
+
+![Zoomed](assets/election-memes/zoomed.png)
+
 # Urban Legends | Network topology affects meme transmission
 
 # pplapi | A computer simulation of the human population
