@@ -19,3 +19,5 @@ In this talk, I will discuss several recent studies, including:
 ## Images
 
 - Strategy: [https://en.wikipedia.org/wiki/File:Strategy.jpg](https://en.wikipedia.org/wiki/File:Strategy.jpg)
+- 10th Macy Conferences Image: [http://www.asc-cybernetics.org/foundations/history/Macy10Photo.htm](http://www.asc-cybernetics.org/foundations/history/Macy10Photo.htm)
+- BibTeX: [https://commons.wikimedia.org/wiki/File:Example_bibtex2.png](https://commons.wikimedia.org/wiki/File:Example_bibtex2.png)

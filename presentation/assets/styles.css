@@ -49,6 +49,12 @@ article.side-image p.caption {
     margin-right: 20px;
 }
 
+.big-video {
+    width: 990px;
+    height: 600px;
+    margin-top: -50px;
+}
+
 /* Individual Slides */
 
 #spaghetti-slide {

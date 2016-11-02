@@ -51,7 +51,9 @@ output:
 
 # social psychology meets artificial intelligence
 
-## Academic collaboration network
+## Academic collaboration network {.side-image}
+
+![10th Macy Conference](assets/macy-10th-conference.jpg)
 
 - Lewin and von Neumann meet at Macy 1 and 2:
     - March 1946
@@ -61,7 +63,9 @@ output:
 - social net with one particular constraint
     + authors are linked via co-authorship
 
-## Leveraging BibTeX
+## Leveraging BibTeX {.side-image}
+
+![BibTeX](assets/bibtex.png)
 
 - database of citations
 - BibTeX is the interchange format
@@ -71,9 +75,25 @@ output:
         - Python
         - LaTeX
     + ugly, but good enough
-- 
+- library consists of $n \approx$ 2500 citations
 
-## Visualizing the network
+## Visualizing the network {.side-image}
+
+![Academic collaboration network](assets/academic-network.png)
+
+- identify the largest component
+    + $n_{authors} = 1574$
+    + $n_{edges} = 4905$
+- look at 2nd-largest component for authors who are missing a link
+- calculate modularity (stochastic) to identify communities
+- http://imiller.utsc.utoronto.ca
+    + [/media/network/](http://imiller.utsc.utoronto.ca/media/network/)
+
+## {.fill .nobackground}
+
+<video class="big-video" controls autoplay>
+<source src="assets/academic-network.mp4" type="video/mp4">
+</video>
 
 ## Insights
 

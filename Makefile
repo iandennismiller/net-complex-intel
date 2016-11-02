@@ -21,6 +21,7 @@ clean:
 	rm -rf presentation/$(PROJECT)_files
 	rm -rf presentation/_bookdown_files
 	rm -rf presentation/_book
+	rm ffmpeg*
 
 release: clean presentation
 	git commit -am "release"
