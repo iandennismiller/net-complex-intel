@@ -2,11 +2,11 @@
 
 ## Milestone 1
 
-- [ ] add results from gh-impact, quick facts, whatever
-- [ ] memelab assets
-- [ ] Election Memes assets
 - [ ] Urban Legends assets
 - [ ] pplapi assets
+- [ ] add results from gh-impact, quick facts, whatever
+- [ ] Election Memes assets
+- [ ] memelab assets
 - [ ] rofo assets
 - [ ] topoli
 

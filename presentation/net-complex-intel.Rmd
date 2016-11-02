@@ -45,7 +45,7 @@ output:
 
 ## Overview {.side-image .smaller}
 
-![Itinerary by Matthew Paris ca. 1250-1259](assets/itinerary.jpg)
+![Itinerary by Matthew Paris ca. 1250-1259](assets/stock/itinerary.jpg)
 
 - social psychology meets artificial intelligence
 - gh-impact: the influence of Individuals and Organizations in open source software
@@ -62,7 +62,7 @@ output:
 
 ## Academic collaboration network {.side-image}
 
-![10th Macy Conference group photo](assets/macy-10th-conference.jpg)
+![10th Macy Conference group photo](assets/coauthorship/macy-10th-conference.jpg)
 
 - Lewin and von Neumann meet at Macy 1 and 2:
     - March 1946
@@ -74,7 +74,7 @@ output:
 
 ## Leveraging BibTeX {.side-image}
 
-![some example BibTeX](assets/bibtex.png)
+![some example BibTeX](assets/stock/bibtex.png)
 
 - database of citations
 - BibTeX is the interchange format
@@ -89,7 +89,7 @@ output:
 
 ## Visualizing the network | [http://imiller.utsc.utoronto.ca/media/network/](http://imiller.utsc.utoronto.ca/media/network/) {.side-image}
 
-<img src="assets/academic-network.png" style="height: 400px;" />
+<img src="assets/coauthorship/academic-network.png" style="height: 400px;" />
 
 - identify the largest component
     + $n_{authors} = 1574$
@@ -102,12 +102,12 @@ output:
 ## {.fill .nobackground}
 
 <video class="big-video" controls autoplay>
-<source src="assets/academic-network.mp4" type="video/mp4">
+<source src="assets/coauthorship/academic-network.mp4" type="video/mp4">
 </video>
 
 ## Insights {.side-image}
 
-![The missing link?](assets/feynman.png)
+![The missing link?](assets/coauthorship/feynman.png)
 
 - citation data "in the wild" are very poor quality
 - the communities (detected by modularity) seem plausible
@@ -122,7 +122,7 @@ output:
 
 ## What is publication? {.side-image .bigger}
 
-![an article](assets/article.png)
+![an article](assets/stock/article.png)
 
 - publication in 2016, that is
 - where do you publish?
@@ -132,7 +132,7 @@ output:
 
 ## Where do you publish? {.side-image}
 
-![Hoe's one cylidner printing press](assets/printing-press.png)
+![Hoe's one cylidner printing press](assets/stock/printing-press.png)
 
 + books
 + conferences
@@ -149,7 +149,7 @@ output:
 
 ## Where do you find articles? {.side-image .bigger}
 
-![Bibliothek St. Florian](assets/library.jpg)
+![Bibliothek St. Florian](assets/stock/library.jpg)
 
 - citeseer/citeulike/worldcat
 - pubmed/government portal
@@ -161,7 +161,7 @@ output:
 
 ## Self-publication {.side-image .bigger}
 
-![Zines](assets/zines.jpg)
+![Zines](assets/stock/zines.jpg)
 
 - goal: get BibTeX indexed by Google Scholar
 - digital object identifier?
@@ -173,7 +173,7 @@ output:
 
 ## Pub2 {.side-image}
 
-![pub2 example source](assets/pub2-src.png)
+![pub2 example source](assets/pub2/pub2-src.png)
 
 - like Jekyll (static site generator) for PDFs
     - generates PDF and .bib file that links to PDF
@@ -188,7 +188,7 @@ output:
 
 ## Overview {.side-image .bigger}
 
-![Tall Trees](assets/trees.jpg)
+![Tall Trees](assets/stock/trees.jpg)
 
 - What is gh-impact?
 - Where does gh-impact come from?
@@ -198,7 +198,7 @@ output:
 
 ## What is **gh-impact**? {.side-image .bigger}
 
-![Stone](assets/stone-palm.jpg)
+![Stone](assets/stock/stone-palm.jpg)
 
 - gh-impact is a measure of influence on GitHub.
 - Accounts that publish lots of popular projects will have higher gh-impact scores.
@@ -210,7 +210,7 @@ output:
 
 ## Where does **gh-impact** come from? {.side-image .bigger}
 
-![The open road](assets/road.jpg)
+![The open road](assets/stock/road.jpg)
 
 - related to academic citation analysis ("bibliometrics")
 - GitHub public data API
@@ -219,7 +219,7 @@ output:
 
 ## Who does **gh-impact** apply to? {.side-image .bigger}
 
-![Crowd of people](assets/crowd.jpg)
+![Crowd of people](assets/stock/crowd.jpg)
 
 - all accounts on GitHub
 - individuals and organizations
@@ -228,7 +228,7 @@ output:
 
 ## Why does **gh-impact** matter? {.side-image .bigger}
 
-![Science, generally](assets/calculator.jpg)
+![Science, generally](assets/stock/calculator.jpg)
 
 - assess productive output of accounts
 - get credit for open source work (e.g. academics)
@@ -237,7 +237,7 @@ output:
 
 ## How can I use **gh-impact**? {.side-image .bigger}
 
-![People discussing things](assets/work.jpg)
+![People discussing things](assets/stock/work.jpg)
 
 - search: **gh-impact** scores for over 1.1 million accounts
 - analysis: results from ongoing statistical analysis are regularly posted
@@ -246,7 +246,7 @@ output:
 
 ## Conclusion {.side-image .bigger}
 
-![The future, figuratively](assets/future-road.jpg)
+![The future, figuratively](assets/stock/future-road.jpg)
 
 - gh-impact is a measure of influence on GitHub
 - similar to how influence is measured in academia
