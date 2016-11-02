@@ -85,7 +85,9 @@ output:
     + $n_{authors} = 1574$
     + $n_{edges} = 4905$
 - look at 2nd-largest component for authors who are missing a link
+    + library is curated, not randomly sampled
 - calculate modularity (stochastic) to identify communities
+    + $n_{communities} = 34$
 - http://imiller.utsc.utoronto.ca
     + [/media/network/](http://imiller.utsc.utoronto.ca/media/network/)
 
@@ -95,9 +97,20 @@ output:
 <source src="assets/academic-network.mp4" type="video/mp4">
 </video>
 
-## Insights
+## Insights {.side-image}
 
-# interlude: pub2
+![The missing link](assets/feynman.png)
+
+- citation data "in the wild" are very poor quality
+- the communities (detected by modularity) seem plausible
+- some communities resisted collaboration
+    + Royal Society
+    + US and UK WWII computer scientists
+    + CS and Psychology sides of AI
+- von Neumann is *very* distantly connected to Lewin's students
+    + Lewin's death may have dashed any chances of a collaboration
+
+# pub2
 
 ## What is publication?
 
@@ -154,3 +167,4 @@ output:
 # Conclusion
 
 ## Thank you
+
