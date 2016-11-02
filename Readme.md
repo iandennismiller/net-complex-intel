@@ -41,4 +41,5 @@ In this talk, I will discuss several recent studies, including:
 - Earth: https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg
 - Cybernetics: https://commons.wikimedia.org/wiki/File:SOCyberntics.png
 - Hands reach: https://www.flickr.com/photos/blmnevada/9607555893
+- Ouroboros: https://commons.wikimedia.org/wiki/File:Serpiente_alquimica.jpg
 - 

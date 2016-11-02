@@ -675,7 +675,7 @@ example run of Repast simulation
     + web service
     + $n \approx 7.2B$
 
-## pplapi.com {.side-image .bigger}
+## pplapi.com {.side-image}
 
 ![Results are available as JSON](assets/pplapi/json-example.png)
 
@@ -717,7 +717,7 @@ example run of Repast simulation
     + however, imagine they were real
     + ...and isn't that likely, given the rate of information disclosures?
 
-## Summary {.side-image .bigger}
+## Summary {.side-image}
 
 ![Geometric roof](assets/stock/aluminum-roof.jpg)
 
@@ -732,11 +732,47 @@ example run of Repast simulation
 
 # Closing | A few last things
 
-## Revisiting Lewin and von Neumann
+## Revisiting the Macy Conferences {.side-image .smaller}
 
-## Conclusions
+![Serpiente alquimica / Ouroboros](assets/stock/ouroboros.jpg)
 
-## Thank you
+- What if Lewin's ideas had found a home among AI researchers?
+- Recall Field Theory for one person: $B = f(P, S)$
+- **behaviour** is a **function** of the **person** and the **situation**
+    - I can derive model **functions** from empirical data or from the literature
+    - I have the set of all **people** with pplapi
+    - I can calculate **behaviour** as a property of my simulation
+    - **situation** changes as in response to behaviour, so this is also a property of the simulation
+- altogether, this is a new justification for computational social psychology
+
+## Recap {.side-image}
+
+![Itinerary by Matthew Paris ca. 1250-1259](assets/stock/itinerary.jpg)
+
+- social psychology meets artificial intelligence
+- **memelab**: meme sharing
+- **pub2**: self publishing
+- **topoli**: twitter political memes
+- **rofo**: Rob Ford social network
+- **gh-impact**: influence in open source software
+- **election-memes**: 2016 US election memes
+- **pplapi**: human simulacrum as a service
+
+## Conclusions {.side-image}
+
+![the end](assets/stock/end-of-tunnel.jpg)
+
+- a wide range of social phenomena can be explored with agent-based modelling
+- networks are a powerful too for organizing and utilizing relationships
+- memes are an excellent unit of analysis.  simultaneously:
+    + a coherent concept that is meaningful to humans
+    + a chunk of data that can be quantified and tracked
+- Field Theory was the conceptual bridge between these disciplines
+- My current work is called Iterated Field Theory
+
+## Thank you {.side-image}
+
+![vCard](assets/qr.png)
 
 - thank you for the opportunity to present
 - this presentation is online
